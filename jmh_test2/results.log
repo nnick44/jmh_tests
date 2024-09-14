@@ -1,0 +1,2327 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortAscending
+# Parameters: (arraySize = 100)
+
+# Run progress: 0.00% complete, ETA 03:45:00
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 0.74% complete, ETA 03:44:06
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 1.48% complete, ETA 03:42:24
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 2.22% complete, ETA 03:40:44
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 2.96% complete, ETA 03:39:04
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortAscending":
+  ≈ 10⁻⁴ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortAscending
+# Parameters: (arraySize = 1000)
+
+# Run progress: 3.70% complete, ETA 03:37:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 4.44% complete, ETA 03:35:45
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 5.19% complete, ETA 03:34:03
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 5.93% complete, ETA 03:32:23
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 6.67% complete, ETA 03:30:42
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortAscending":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortAscending
+# Parameters: (arraySize = 10000)
+
+# Run progress: 7.41% complete, ETA 03:29:02
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.005 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+# Run progress: 8.15% complete, ETA 03:27:21
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+# Run progress: 8.89% complete, ETA 03:25:41
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.003 ms/op
+Iteration   3: 0.003 ms/op
+Iteration   4: 0.003 ms/op
+Iteration   5: 0.003 ms/op
+
+# Run progress: 9.63% complete, ETA 03:24:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.003 ms/op
+# Warmup Iteration   3: 0.003 ms/op
+# Warmup Iteration   4: 0.003 ms/op
+# Warmup Iteration   5: 0.003 ms/op
+Iteration   1: 0.003 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.003 ms/op
+Iteration   5: 0.003 ms/op
+
+# Run progress: 10.37% complete, ETA 03:22:19
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.003 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.003 ms/op
+Iteration   1: 0.003 ms/op
+Iteration   2: 0.003 ms/op
+Iteration   3: 0.003 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.003 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortAscending":
+  0.004 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.003, 0.004, 0.006), stdev = 0.001
+  CI (99.9%): [0.004, 0.005] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortDescending
+# Parameters: (arraySize = 100)
+
+# Run progress: 11.11% complete, ETA 03:20:38
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 11.85% complete, ETA 03:18:57
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 12.59% complete, ETA 03:17:17
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 13.33% complete, ETA 03:15:36
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 14.07% complete, ETA 03:13:55
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortDescending":
+  ≈ 10⁻⁴ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortDescending
+# Parameters: (arraySize = 1000)
+
+# Run progress: 14.81% complete, ETA 03:12:15
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 15.56% complete, ETA 03:10:34
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 16.30% complete, ETA 03:08:53
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 17.04% complete, ETA 03:07:13
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 17.78% complete, ETA 03:05:33
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortDescending":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortDescending
+# Parameters: (arraySize = 10000)
+
+# Run progress: 18.52% complete, ETA 03:03:52
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 19.26% complete, ETA 03:02:11
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 20.00% complete, ETA 03:00:31
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 20.74% complete, ETA 02:58:50
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.007 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 21.48% complete, ETA 02:57:10
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortDescending":
+  0.008 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.008, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.008, 0.008] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortRandom
+# Parameters: (arraySize = 100)
+
+# Run progress: 22.22% complete, ETA 02:55:30
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 22.96% complete, ETA 02:53:49
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 23.70% complete, ETA 02:52:09
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 24.44% complete, ETA 02:50:29
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 25.19% complete, ETA 02:48:48
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortRandom":
+  0.002 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortRandom
+# Parameters: (arraySize = 1000)
+
+# Run progress: 25.93% complete, ETA 02:47:08
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 26.67% complete, ETA 02:45:28
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 27.41% complete, ETA 02:43:47
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.027 ms/op
+# Warmup Iteration   3: 0.027 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.027 ms/op
+Iteration   2: 0.027 ms/op
+Iteration   3: 0.027 ms/op
+Iteration   4: 0.027 ms/op
+Iteration   5: 0.027 ms/op
+
+# Run progress: 28.15% complete, ETA 02:42:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 28.89% complete, ETA 02:40:27
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortRandom":
+  0.028 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.027, 0.028, 0.028), stdev = 0.001
+  CI (99.9%): [0.028, 0.028] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysParallelSortRandom
+# Parameters: (arraySize = 10000)
+
+# Run progress: 29.63% complete, ETA 02:38:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.240 ms/op
+# Warmup Iteration   2: 0.239 ms/op
+# Warmup Iteration   3: 0.239 ms/op
+# Warmup Iteration   4: 0.239 ms/op
+# Warmup Iteration   5: 0.239 ms/op
+Iteration   1: 0.240 ms/op
+Iteration   2: 0.239 ms/op
+Iteration   3: 0.240 ms/op
+Iteration   4: 0.239 ms/op
+Iteration   5: 0.239 ms/op
+
+# Run progress: 30.37% complete, ETA 02:37:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.242 ms/op
+# Warmup Iteration   2: 0.239 ms/op
+# Warmup Iteration   3: 0.239 ms/op
+# Warmup Iteration   4: 0.239 ms/op
+# Warmup Iteration   5: 0.239 ms/op
+Iteration   1: 0.239 ms/op
+Iteration   2: 0.239 ms/op
+Iteration   3: 0.241 ms/op
+Iteration   4: 0.239 ms/op
+Iteration   5: 0.240 ms/op
+
+# Run progress: 31.11% complete, ETA 02:35:25
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.239 ms/op
+# Warmup Iteration   2: 0.237 ms/op
+# Warmup Iteration   3: 0.237 ms/op
+# Warmup Iteration   4: 0.237 ms/op
+# Warmup Iteration   5: 0.237 ms/op
+Iteration   1: 0.238 ms/op
+Iteration   2: 0.237 ms/op
+Iteration   3: 0.237 ms/op
+Iteration   4: 0.237 ms/op
+Iteration   5: 0.237 ms/op
+
+# Run progress: 31.85% complete, ETA 02:33:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.242 ms/op
+# Warmup Iteration   2: 0.241 ms/op
+# Warmup Iteration   3: 0.239 ms/op
+# Warmup Iteration   4: 0.239 ms/op
+# Warmup Iteration   5: 0.239 ms/op
+Iteration   1: 0.239 ms/op
+Iteration   2: 0.239 ms/op
+Iteration   3: 0.239 ms/op
+Iteration   4: 0.239 ms/op
+Iteration   5: 0.239 ms/op
+
+# Run progress: 32.59% complete, ETA 02:32:05
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.241 ms/op
+# Warmup Iteration   2: 0.242 ms/op
+# Warmup Iteration   3: 0.238 ms/op
+# Warmup Iteration   4: 0.238 ms/op
+# Warmup Iteration   5: 0.238 ms/op
+Iteration   1: 0.238 ms/op
+Iteration   2: 0.238 ms/op
+Iteration   3: 0.238 ms/op
+Iteration   4: 0.237 ms/op
+Iteration   5: 0.237 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysParallelSortRandom":
+  0.238 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.237, 0.238, 0.241), stdev = 0.001
+  CI (99.9%): [0.238, 0.239] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortAscending
+# Parameters: (arraySize = 100)
+
+# Run progress: 33.33% complete, ETA 02:30:24
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 34.07% complete, ETA 02:28:44
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 34.81% complete, ETA 02:27:04
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 35.56% complete, ETA 02:25:23
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 36.30% complete, ETA 02:23:43
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortAscending":
+  ≈ 10⁻⁴ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortAscending
+# Parameters: (arraySize = 1000)
+
+# Run progress: 37.04% complete, ETA 02:22:03
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+# Warmup Iteration   4: ≈ 10⁻³ ms/op
+# Warmup Iteration   5: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+# Run progress: 37.78% complete, ETA 02:20:23
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+# Warmup Iteration   4: ≈ 10⁻³ ms/op
+# Warmup Iteration   5: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+# Run progress: 38.52% complete, ETA 02:18:42
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+# Warmup Iteration   4: ≈ 10⁻³ ms/op
+# Warmup Iteration   5: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+# Run progress: 39.26% complete, ETA 02:17:02
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+# Warmup Iteration   4: ≈ 10⁻³ ms/op
+# Warmup Iteration   5: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+# Run progress: 40.00% complete, ETA 02:15:22
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+# Warmup Iteration   4: ≈ 10⁻³ ms/op
+# Warmup Iteration   5: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortAscending":
+  ≈ 10⁻³ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortAscending
+# Parameters: (arraySize = 10000)
+
+# Run progress: 40.74% complete, ETA 02:13:41
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+# Run progress: 41.48% complete, ETA 02:12:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.003 ms/op
+# Warmup Iteration   3: 0.003 ms/op
+# Warmup Iteration   4: 0.003 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.003 ms/op
+Iteration   2: 0.003 ms/op
+Iteration   3: 0.003 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.003 ms/op
+
+# Run progress: 42.22% complete, ETA 02:10:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.003 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.003 ms/op
+# Warmup Iteration   5: 0.003 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.003 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.003 ms/op
+Iteration   5: 0.004 ms/op
+
+# Run progress: 42.96% complete, ETA 02:08:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.003 ms/op
+# Warmup Iteration   4: 0.003 ms/op
+# Warmup Iteration   5: 0.003 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.003 ms/op
+Iteration   5: 0.003 ms/op
+
+# Run progress: 43.70% complete, ETA 02:07:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.003 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.003 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortAscending":
+  0.004 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.003, 0.004, 0.004), stdev = 0.001
+  CI (99.9%): [0.003, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortDescending
+# Parameters: (arraySize = 100)
+
+# Run progress: 44.44% complete, ETA 02:05:20
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 45.19% complete, ETA 02:03:40
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 45.93% complete, ETA 02:01:59
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 46.67% complete, ETA 02:00:19
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+# Run progress: 47.41% complete, ETA 01:58:39
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   4: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   5: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortDescending":
+  ≈ 10⁻⁴ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortDescending
+# Parameters: (arraySize = 1000)
+
+# Run progress: 48.15% complete, ETA 01:56:59
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 48.89% complete, ETA 01:55:18
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 49.63% complete, ETA 01:53:38
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 50.37% complete, ETA 01:51:58
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 51.11% complete, ETA 01:50:17
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortDescending":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortDescending
+# Parameters: (arraySize = 10000)
+
+# Run progress: 51.85% complete, ETA 01:48:37
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 52.59% complete, ETA 01:46:57
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 53.33% complete, ETA 01:45:17
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.007 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 54.07% complete, ETA 01:43:36
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+# Run progress: 54.81% complete, ETA 01:41:56
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+# Warmup Iteration   4: 0.008 ms/op
+# Warmup Iteration   5: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.007 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortDescending":
+  0.008 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.007, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.007, 0.008] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortRandom
+# Parameters: (arraySize = 100)
+
+# Run progress: 55.56% complete, ETA 01:40:16
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 56.30% complete, ETA 01:38:35
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 57.04% complete, ETA 01:36:55
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 57.78% complete, ETA 01:35:15
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+# Run progress: 58.52% complete, ETA 01:33:35
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+# Warmup Iteration   4: 0.002 ms/op
+# Warmup Iteration   5: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortRandom":
+  0.002 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortRandom
+# Parameters: (arraySize = 1000)
+
+# Run progress: 59.26% complete, ETA 01:31:54
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 60.00% complete, ETA 01:30:14
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 60.74% complete, ETA 01:28:34
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 61.48% complete, ETA 01:26:54
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.028 ms/op
+# Warmup Iteration   4: 0.028 ms/op
+# Warmup Iteration   5: 0.028 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+# Run progress: 62.22% complete, ETA 01:25:13
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.027 ms/op
+# Warmup Iteration   4: 0.027 ms/op
+# Warmup Iteration   5: 0.027 ms/op
+Iteration   1: 0.028 ms/op
+Iteration   2: 0.028 ms/op
+Iteration   3: 0.028 ms/op
+Iteration   4: 0.028 ms/op
+Iteration   5: 0.028 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortRandom":
+  0.028 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.028, 0.028, 0.028), stdev = 0.001
+  CI (99.9%): [0.028, 0.028] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testArraysSortRandom
+# Parameters: (arraySize = 10000)
+
+# Run progress: 62.96% complete, ETA 01:23:33
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.379 ms/op
+# Warmup Iteration   2: 0.377 ms/op
+# Warmup Iteration   3: 0.379 ms/op
+# Warmup Iteration   4: 0.377 ms/op
+# Warmup Iteration   5: 0.377 ms/op
+Iteration   1: 0.377 ms/op
+Iteration   2: 0.377 ms/op
+Iteration   3: 0.377 ms/op
+Iteration   4: 0.377 ms/op
+Iteration   5: 0.378 ms/op
+
+# Run progress: 63.70% complete, ETA 01:21:53
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.378 ms/op
+# Warmup Iteration   2: 0.377 ms/op
+# Warmup Iteration   3: 0.376 ms/op
+# Warmup Iteration   4: 0.376 ms/op
+# Warmup Iteration   5: 0.379 ms/op
+Iteration   1: 0.377 ms/op
+Iteration   2: 0.377 ms/op
+Iteration   3: 0.377 ms/op
+Iteration   4: 0.376 ms/op
+Iteration   5: 0.376 ms/op
+
+# Run progress: 64.44% complete, ETA 01:20:12
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.378 ms/op
+# Warmup Iteration   2: 0.377 ms/op
+# Warmup Iteration   3: 0.377 ms/op
+# Warmup Iteration   4: 0.377 ms/op
+# Warmup Iteration   5: 0.396 ms/op
+Iteration   1: 0.378 ms/op
+Iteration   2: 0.377 ms/op
+Iteration   3: 0.377 ms/op
+Iteration   4: 0.377 ms/op
+Iteration   5: 0.378 ms/op
+
+# Run progress: 65.19% complete, ETA 01:18:32
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.376 ms/op
+# Warmup Iteration   2: 0.375 ms/op
+# Warmup Iteration   3: 0.375 ms/op
+# Warmup Iteration   4: 0.378 ms/op
+# Warmup Iteration   5: 0.375 ms/op
+Iteration   1: 0.376 ms/op
+Iteration   2: 0.376 ms/op
+Iteration   3: 0.375 ms/op
+Iteration   4: 0.375 ms/op
+Iteration   5: 0.375 ms/op
+
+# Run progress: 65.93% complete, ETA 01:16:52
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.376 ms/op
+# Warmup Iteration   2: 0.374 ms/op
+# Warmup Iteration   3: 0.374 ms/op
+# Warmup Iteration   4: 0.375 ms/op
+# Warmup Iteration   5: 0.374 ms/op
+Iteration   1: 0.375 ms/op
+Iteration   2: 0.374 ms/op
+Iteration   3: 0.375 ms/op
+Iteration   4: 0.374 ms/op
+Iteration   5: 0.374 ms/op
+
+
+Result "org.sample.SortingBenchmark.testArraysSortRandom":
+  0.376 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.374, 0.376, 0.378), stdev = 0.001
+  CI (99.9%): [0.375, 0.377] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortAscending
+# Parameters: (arraySize = 100)
+
+# Run progress: 66.67% complete, ETA 01:15:12
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 67.41% complete, ETA 01:13:31
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 68.15% complete, ETA 01:11:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 68.89% complete, ETA 01:10:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 69.63% complete, ETA 01:08:30
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortAscending":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortAscending
+# Parameters: (arraySize = 1000)
+
+# Run progress: 70.37% complete, ETA 01:06:50
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.016 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.015 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.015 ms/op
+
+# Run progress: 71.11% complete, ETA 01:05:10
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.015 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.015 ms/op
+
+# Run progress: 71.85% complete, ETA 01:03:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.015 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.015 ms/op
+
+# Run progress: 72.59% complete, ETA 01:01:49
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.015 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.016 ms/op
+
+# Run progress: 73.33% complete, ETA 01:00:09
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.015 ms/op
+# Warmup Iteration   3: 0.015 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.015 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.015 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortAscending":
+  0.015 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.015, 0.015, 0.016), stdev = 0.001
+  CI (99.9%): [0.015, 0.015] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortAscending
+# Parameters: (arraySize = 10000)
+
+# Run progress: 74.07% complete, ETA 00:58:29
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.170 ms/op
+# Warmup Iteration   2: 0.168 ms/op
+# Warmup Iteration   3: 0.168 ms/op
+# Warmup Iteration   4: 0.168 ms/op
+# Warmup Iteration   5: 0.167 ms/op
+Iteration   1: 0.168 ms/op
+Iteration   2: 0.168 ms/op
+Iteration   3: 0.169 ms/op
+Iteration   4: 0.168 ms/op
+Iteration   5: 0.167 ms/op
+
+# Run progress: 74.81% complete, ETA 00:56:49
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.169 ms/op
+# Warmup Iteration   2: 0.167 ms/op
+# Warmup Iteration   3: 0.168 ms/op
+# Warmup Iteration   4: 0.167 ms/op
+# Warmup Iteration   5: 0.167 ms/op
+Iteration   1: 0.167 ms/op
+Iteration   2: 0.167 ms/op
+Iteration   3: 0.167 ms/op
+Iteration   4: 0.167 ms/op
+Iteration   5: 0.168 ms/op
+
+# Run progress: 75.56% complete, ETA 00:55:08
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.170 ms/op
+# Warmup Iteration   2: 0.167 ms/op
+# Warmup Iteration   3: 0.168 ms/op
+# Warmup Iteration   4: 0.167 ms/op
+# Warmup Iteration   5: 0.168 ms/op
+Iteration   1: 0.168 ms/op
+Iteration   2: 0.167 ms/op
+Iteration   3: 0.167 ms/op
+Iteration   4: 0.168 ms/op
+Iteration   5: 0.167 ms/op
+
+# Run progress: 76.30% complete, ETA 00:53:28
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.165 ms/op
+# Warmup Iteration   2: 0.164 ms/op
+# Warmup Iteration   3: 0.165 ms/op
+# Warmup Iteration   4: 0.163 ms/op
+# Warmup Iteration   5: 0.163 ms/op
+Iteration   1: 0.163 ms/op
+Iteration   2: 0.163 ms/op
+Iteration   3: 0.166 ms/op
+Iteration   4: 0.163 ms/op
+Iteration   5: 0.164 ms/op
+
+# Run progress: 77.04% complete, ETA 00:51:48
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.165 ms/op
+# Warmup Iteration   2: 0.163 ms/op
+# Warmup Iteration   3: 0.164 ms/op
+# Warmup Iteration   4: 0.164 ms/op
+# Warmup Iteration   5: 0.163 ms/op
+Iteration   1: 0.163 ms/op
+Iteration   2: 0.163 ms/op
+Iteration   3: 0.163 ms/op
+Iteration   4: 0.163 ms/op
+Iteration   5: 0.163 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortAscending":
+  0.166 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.163, 0.166, 0.169), stdev = 0.002
+  CI (99.9%): [0.164, 0.167] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortDescending
+# Parameters: (arraySize = 100)
+
+# Run progress: 77.78% complete, ETA 00:50:07
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 78.52% complete, ETA 00:48:27
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 79.26% complete, ETA 00:46:47
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 80.00% complete, ETA 00:45:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+# Run progress: 80.74% complete, ETA 00:43:26
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+# Warmup Iteration   4: 0.001 ms/op
+# Warmup Iteration   5: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortDescending":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortDescending
+# Parameters: (arraySize = 1000)
+
+# Run progress: 81.48% complete, ETA 00:41:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 82.22% complete, ETA 00:40:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 82.96% complete, ETA 00:38:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 83.70% complete, ETA 00:36:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 84.44% complete, ETA 00:35:05
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortDescending":
+  0.017 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.017, 0.017, 0.017), stdev = 0.001
+  CI (99.9%): [0.017, 0.017] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortDescending
+# Parameters: (arraySize = 10000)
+
+# Run progress: 85.19% complete, ETA 00:33:25
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.184 ms/op
+# Warmup Iteration   2: 0.181 ms/op
+# Warmup Iteration   3: 0.180 ms/op
+# Warmup Iteration   4: 0.181 ms/op
+# Warmup Iteration   5: 0.180 ms/op
+Iteration   1: 0.180 ms/op
+Iteration   2: 0.180 ms/op
+Iteration   3: 0.180 ms/op
+Iteration   4: 0.181 ms/op
+Iteration   5: 0.182 ms/op
+
+# Run progress: 85.93% complete, ETA 00:31:45
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.182 ms/op
+# Warmup Iteration   2: 0.181 ms/op
+# Warmup Iteration   3: 0.179 ms/op
+# Warmup Iteration   4: 0.180 ms/op
+# Warmup Iteration   5: 0.179 ms/op
+Iteration   1: 0.179 ms/op
+Iteration   2: 0.179 ms/op
+Iteration   3: 0.179 ms/op
+Iteration   4: 0.179 ms/op
+Iteration   5: 0.179 ms/op
+
+# Run progress: 86.67% complete, ETA 00:30:04
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.183 ms/op
+# Warmup Iteration   2: 0.182 ms/op
+# Warmup Iteration   3: 0.179 ms/op
+# Warmup Iteration   4: 0.181 ms/op
+# Warmup Iteration   5: 0.180 ms/op
+Iteration   1: 0.180 ms/op
+Iteration   2: 0.180 ms/op
+Iteration   3: 0.180 ms/op
+Iteration   4: 0.180 ms/op
+Iteration   5: 0.180 ms/op
+
+# Run progress: 87.41% complete, ETA 00:28:24
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.182 ms/op
+# Warmup Iteration   2: 0.179 ms/op
+# Warmup Iteration   3: 0.178 ms/op
+# Warmup Iteration   4: 0.180 ms/op
+# Warmup Iteration   5: 0.179 ms/op
+Iteration   1: 0.180 ms/op
+Iteration   2: 0.178 ms/op
+Iteration   3: 0.178 ms/op
+Iteration   4: 0.181 ms/op
+Iteration   5: 0.178 ms/op
+
+# Run progress: 88.15% complete, ETA 00:26:44
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.182 ms/op
+# Warmup Iteration   2: 0.180 ms/op
+# Warmup Iteration   3: 0.178 ms/op
+# Warmup Iteration   4: 0.180 ms/op
+# Warmup Iteration   5: 0.179 ms/op
+Iteration   1: 0.179 ms/op
+Iteration   2: 0.178 ms/op
+Iteration   3: 0.178 ms/op
+Iteration   4: 0.180 ms/op
+Iteration   5: 0.179 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortDescending":
+  0.180 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.178, 0.180, 0.182), stdev = 0.001
+  CI (99.9%): [0.179, 0.180] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortRandom
+# Parameters: (arraySize = 100)
+
+# Run progress: 88.89% complete, ETA 00:25:03
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+# Run progress: 89.63% complete, ETA 00:23:23
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+# Run progress: 90.37% complete, ETA 00:21:43
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+# Run progress: 91.11% complete, ETA 00:20:03
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+# Run progress: 91.85% complete, ETA 00:18:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+# Warmup Iteration   4: 0.004 ms/op
+# Warmup Iteration   5: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortRandom":
+  0.004 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.004, 0.004, 0.004), stdev = 0.001
+  CI (99.9%): [0.004, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortRandom
+# Parameters: (arraySize = 1000)
+
+# Run progress: 92.59% complete, ETA 00:16:42
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.056 ms/op
+# Warmup Iteration   2: 0.055 ms/op
+# Warmup Iteration   3: 0.055 ms/op
+# Warmup Iteration   4: 0.058 ms/op
+# Warmup Iteration   5: 0.056 ms/op
+Iteration   1: 0.056 ms/op
+Iteration   2: 0.056 ms/op
+Iteration   3: 0.057 ms/op
+Iteration   4: 0.057 ms/op
+Iteration   5: 0.057 ms/op
+
+# Run progress: 93.33% complete, ETA 00:15:02
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.057 ms/op
+# Warmup Iteration   2: 0.057 ms/op
+# Warmup Iteration   3: 0.057 ms/op
+# Warmup Iteration   4: 0.057 ms/op
+# Warmup Iteration   5: 0.057 ms/op
+Iteration   1: 0.056 ms/op
+Iteration   2: 0.056 ms/op
+Iteration   3: 0.057 ms/op
+Iteration   4: 0.056 ms/op
+Iteration   5: 0.058 ms/op
+
+# Run progress: 94.07% complete, ETA 00:13:22
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.057 ms/op
+# Warmup Iteration   2: 0.057 ms/op
+# Warmup Iteration   3: 0.057 ms/op
+# Warmup Iteration   4: 0.056 ms/op
+# Warmup Iteration   5: 0.057 ms/op
+Iteration   1: 0.056 ms/op
+Iteration   2: 0.057 ms/op
+Iteration   3: 0.057 ms/op
+Iteration   4: 0.057 ms/op
+Iteration   5: 0.057 ms/op
+
+# Run progress: 94.81% complete, ETA 00:11:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.057 ms/op
+# Warmup Iteration   2: 0.057 ms/op
+# Warmup Iteration   3: 0.056 ms/op
+# Warmup Iteration   4: 0.057 ms/op
+# Warmup Iteration   5: 0.057 ms/op
+Iteration   1: 0.057 ms/op
+Iteration   2: 0.057 ms/op
+Iteration   3: 0.057 ms/op
+Iteration   4: 0.057 ms/op
+Iteration   5: 0.057 ms/op
+
+# Run progress: 95.56% complete, ETA 00:10:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.057 ms/op
+# Warmup Iteration   2: 0.056 ms/op
+# Warmup Iteration   3: 0.056 ms/op
+# Warmup Iteration   4: 0.057 ms/op
+# Warmup Iteration   5: 0.057 ms/op
+Iteration   1: 0.056 ms/op
+Iteration   2: 0.057 ms/op
+Iteration   3: 0.057 ms/op
+Iteration   4: 0.056 ms/op
+Iteration   5: 0.057 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortRandom":
+  0.057 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.056, 0.057, 0.058), stdev = 0.001
+  CI (99.9%): [0.056, 0.057] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortingBenchmark.testMergeSortRandom
+# Parameters: (arraySize = 10000)
+
+# Run progress: 96.30% complete, ETA 00:08:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.733 ms/op
+# Warmup Iteration   2: 0.735 ms/op
+# Warmup Iteration   3: 0.734 ms/op
+# Warmup Iteration   4: 0.734 ms/op
+# Warmup Iteration   5: 0.733 ms/op
+Iteration   1: 0.731 ms/op
+Iteration   2: 0.731 ms/op
+Iteration   3: 0.732 ms/op
+Iteration   4: 0.733 ms/op
+Iteration   5: 0.734 ms/op
+
+# Run progress: 97.04% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.733 ms/op
+# Warmup Iteration   2: 0.733 ms/op
+# Warmup Iteration   3: 0.734 ms/op
+# Warmup Iteration   4: 0.731 ms/op
+# Warmup Iteration   5: 0.734 ms/op
+Iteration   1: 0.737 ms/op
+Iteration   2: 0.735 ms/op
+Iteration   3: 0.741 ms/op
+Iteration   4: 0.734 ms/op
+Iteration   5: 0.735 ms/op
+
+# Run progress: 97.78% complete, ETA 00:05:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.736 ms/op
+# Warmup Iteration   2: 0.730 ms/op
+# Warmup Iteration   3: 0.733 ms/op
+# Warmup Iteration   4: 0.734 ms/op
+# Warmup Iteration   5: 0.733 ms/op
+Iteration   1: 0.735 ms/op
+Iteration   2: 0.738 ms/op
+Iteration   3: 0.741 ms/op
+Iteration   4: 0.736 ms/op
+Iteration   5: 0.735 ms/op
+
+# Run progress: 98.52% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.731 ms/op
+# Warmup Iteration   2: 0.735 ms/op
+# Warmup Iteration   3: 0.734 ms/op
+# Warmup Iteration   4: 0.737 ms/op
+# Warmup Iteration   5: 0.733 ms/op
+Iteration   1: 0.729 ms/op
+Iteration   2: 0.722 ms/op
+Iteration   3: 0.720 ms/op
+Iteration   4: 0.726 ms/op
+Iteration   5: 0.721 ms/op
+
+# Run progress: 99.26% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.725 ms/op
+# Warmup Iteration   2: 0.722 ms/op
+# Warmup Iteration   3: 0.722 ms/op
+# Warmup Iteration   4: 0.723 ms/op
+# Warmup Iteration   5: 0.724 ms/op
+Iteration   1: 0.722 ms/op
+Iteration   2: 0.723 ms/op
+Iteration   3: 0.720 ms/op
+Iteration   4: 0.722 ms/op
+Iteration   5: 0.720 ms/op
+
+
+Result "org.sample.SortingBenchmark.testMergeSortRandom":
+  0.730 ±(99.9%) 0.005 ms/op [Average]
+  (min, avg, max) = (0.720, 0.730, 0.741), stdev = 0.007
+  CI (99.9%): [0.725, 0.735] (assumes normal distribution)
+
+
+# Run complete. Total time: 03:45:35
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                          (arraySize)  Mode  Cnt   Score    Error  Units
+SortingBenchmark.testArraysParallelSortAscending           100  avgt   25  ≈ 10⁻⁴           ms/op
+SortingBenchmark.testArraysParallelSortAscending          1000  avgt   25   0.001 ±  0.001  ms/op
+SortingBenchmark.testArraysParallelSortAscending         10000  avgt   25   0.004 ±  0.001  ms/op
+SortingBenchmark.testArraysParallelSortDescending          100  avgt   25  ≈ 10⁻⁴           ms/op
+SortingBenchmark.testArraysParallelSortDescending         1000  avgt   25   0.001 ±  0.001  ms/op
+SortingBenchmark.testArraysParallelSortDescending        10000  avgt   25   0.008 ±  0.001  ms/op
+SortingBenchmark.testArraysParallelSortRandom              100  avgt   25   0.002 ±  0.001  ms/op
+SortingBenchmark.testArraysParallelSortRandom             1000  avgt   25   0.028 ±  0.001  ms/op
+SortingBenchmark.testArraysParallelSortRandom            10000  avgt   25   0.238 ±  0.001  ms/op
+SortingBenchmark.testArraysSortAscending                   100  avgt   25  ≈ 10⁻⁴           ms/op
+SortingBenchmark.testArraysSortAscending                  1000  avgt   25  ≈ 10⁻³           ms/op
+SortingBenchmark.testArraysSortAscending                 10000  avgt   25   0.004 ±  0.001  ms/op
+SortingBenchmark.testArraysSortDescending                  100  avgt   25  ≈ 10⁻⁴           ms/op
+SortingBenchmark.testArraysSortDescending                 1000  avgt   25   0.001 ±  0.001  ms/op
+SortingBenchmark.testArraysSortDescending                10000  avgt   25   0.008 ±  0.001  ms/op
+SortingBenchmark.testArraysSortRandom                      100  avgt   25   0.002 ±  0.001  ms/op
+SortingBenchmark.testArraysSortRandom                     1000  avgt   25   0.028 ±  0.001  ms/op
+SortingBenchmark.testArraysSortRandom                    10000  avgt   25   0.376 ±  0.001  ms/op
+SortingBenchmark.testMergeSortAscending                    100  avgt   25   0.001 ±  0.001  ms/op
+SortingBenchmark.testMergeSortAscending                   1000  avgt   25   0.015 ±  0.001  ms/op
+SortingBenchmark.testMergeSortAscending                  10000  avgt   25   0.166 ±  0.002  ms/op
+SortingBenchmark.testMergeSortDescending                   100  avgt   25   0.001 ±  0.001  ms/op
+SortingBenchmark.testMergeSortDescending                  1000  avgt   25   0.017 ±  0.001  ms/op
+SortingBenchmark.testMergeSortDescending                 10000  avgt   25   0.180 ±  0.001  ms/op
+SortingBenchmark.testMergeSortRandom                       100  avgt   25   0.004 ±  0.001  ms/op
+SortingBenchmark.testMergeSortRandom                      1000  avgt   25   0.057 ±  0.001  ms/op
+SortingBenchmark.testMergeSortRandom                     10000  avgt   25   0.730 ±  0.005  ms/op
