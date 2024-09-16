@@ -9,77 +9,588 @@
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 2)
 
-# Run progress: 0.00% complete, ETA 00:25:00
+# Run progress: 0.00% complete, ETA 02:55:00
 # Fork: 1 of 5
-# Warmup Iteration   1: 17.576 ns/op
-# Warmup Iteration   2: 17.162 ns/op
-# Warmup Iteration   3: 18.978 ns/op
-# Warmup Iteration   4: 17.182 ns/op
-# Warmup Iteration   5: 17.166 ns/op
-Iteration   1: 16.941 ns/op
-Iteration   2: 16.757 ns/op
-Iteration   3: 17.165 ns/op
-Iteration   4: 17.125 ns/op
-Iteration   5: 17.327 ns/op
+# Warmup Iteration   1: 23.803 ns/op
+# Warmup Iteration   2: 22.545 ns/op
+# Warmup Iteration   3: 21.339 ns/op
+# Warmup Iteration   4: 21.394 ns/op
+# Warmup Iteration   5: 20.706 ns/op
+Iteration   1: 20.682 ns/op
+Iteration   2: 21.102 ns/op
+Iteration   3: 21.063 ns/op
+Iteration   4: 20.759 ns/op
+Iteration   5: 20.837 ns/op
 
-# Run progress: 6.67% complete, ETA 00:23:25
+# Run progress: 0.95% complete, ETA 02:54:00
 # Fork: 2 of 5
-# Warmup Iteration   1: 17.287 ns/op
-# Warmup Iteration   2: 17.773 ns/op
-# Warmup Iteration   3: 17.563 ns/op
-# Warmup Iteration   4: 16.969 ns/op
-# Warmup Iteration   5: 17.495 ns/op
-Iteration   1: 16.832 ns/op
-Iteration   2: 16.922 ns/op
-Iteration   3: 18.424 ns/op
-Iteration   4: 17.091 ns/op
-Iteration   5: 17.109 ns/op
+# Warmup Iteration   1: 22.858 ns/op
+# Warmup Iteration   2: 22.275 ns/op
+# Warmup Iteration   3: 21.395 ns/op
+# Warmup Iteration   4: 33.454 ns/op
+# Warmup Iteration   5: 13.801 ns/op
+Iteration   1: 14.400 ns/op
+Iteration   2: 13.118 ns/op
+Iteration   3: 12.885 ns/op
+Iteration   4: 13.060 ns/op
+Iteration   5: 12.928 ns/op
 
-# Run progress: 13.33% complete, ETA 00:21:44
+# Run progress: 1.90% complete, ETA 02:52:17
 # Fork: 3 of 5
-# Warmup Iteration   1: 19.172 ns/op
-# Warmup Iteration   2: 17.537 ns/op
-# Warmup Iteration   3: 17.759 ns/op
-# Warmup Iteration   4: 17.810 ns/op
-# Warmup Iteration   5: 23.660 ns/op
-Iteration   1: 27.691 ns/op
-Iteration   2: 17.590 ns/op
-Iteration   3: 18.223 ns/op
-Iteration   4: 16.862 ns/op
-Iteration   5: 16.667 ns/op
+# Warmup Iteration   1: 14.262 ns/op
+# Warmup Iteration   2: 13.950 ns/op
+# Warmup Iteration   3: 12.948 ns/op
+# Warmup Iteration   4: 12.905 ns/op
+# Warmup Iteration   5: 12.852 ns/op
+Iteration   1: 12.877 ns/op
+Iteration   2: 12.861 ns/op
+Iteration   3: 12.917 ns/op
+Iteration   4: 12.892 ns/op
+Iteration   5: 12.862 ns/op
 
-# Run progress: 20.00% complete, ETA 00:20:04
+# Run progress: 2.86% complete, ETA 02:50:32
 # Fork: 4 of 5
-# Warmup Iteration   1: 17.355 ns/op
-# Warmup Iteration   2: 17.172 ns/op
-# Warmup Iteration   3: 17.264 ns/op
-# Warmup Iteration   4: 17.493 ns/op
-# Warmup Iteration   5: 16.944 ns/op
-Iteration   1: 16.736 ns/op
-Iteration   2: 16.730 ns/op
-Iteration   3: 16.789 ns/op
-Iteration   4: 17.053 ns/op
-Iteration   5: 16.732 ns/op
+# Warmup Iteration   1: 14.175 ns/op
+# Warmup Iteration   2: 13.868 ns/op
+# Warmup Iteration   3: 12.938 ns/op
+# Warmup Iteration   4: 12.918 ns/op
+# Warmup Iteration   5: 12.905 ns/op
+Iteration   1: 12.899 ns/op
+Iteration   2: 12.963 ns/op
+Iteration   3: 12.927 ns/op
+Iteration   4: 12.879 ns/op
+Iteration   5: 13.094 ns/op
 
-# Run progress: 26.67% complete, ETA 00:18:23
+# Run progress: 3.81% complete, ETA 02:48:49
 # Fork: 5 of 5
-# Warmup Iteration   1: 17.646 ns/op
-# Warmup Iteration   2: 16.959 ns/op
-# Warmup Iteration   3: 16.810 ns/op
-# Warmup Iteration   4: 16.832 ns/op
-# Warmup Iteration   5: 16.896 ns/op
-Iteration   1: 16.870 ns/op
-Iteration   2: 18.596 ns/op
-Iteration   3: 16.800 ns/op
-Iteration   4: 16.718 ns/op
-Iteration   5: 16.893 ns/op
+# Warmup Iteration   1: 14.104 ns/op
+# Warmup Iteration   2: 13.878 ns/op
+# Warmup Iteration   3: 12.953 ns/op
+# Warmup Iteration   4: 12.897 ns/op
+# Warmup Iteration   5: 12.936 ns/op
+Iteration   1: 12.961 ns/op
+Iteration   2: 12.939 ns/op
+Iteration   3: 12.896 ns/op
+Iteration   4: 12.918 ns/op
+Iteration   5: 12.937 ns/op
 
 
 Result "org.sample.StringConcatBenchmark.concatUsingPlus":
-  17.546 ±(99.9%) 1.633 ns/op [Average]
-  (min, avg, max) = (16.667, 17.546, 27.691), stdev = 2.180
-  CI (99.9%): [15.913, 19.179] (assumes normal distribution)
+  14.586 ±(99.9%) 2.420 ns/op [Average]
+  (min, avg, max) = (12.861, 14.586, 21.102), stdev = 3.231
+  CI (99.9%): [12.166, 17.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 3)
+
+# Run progress: 4.76% complete, ETA 02:47:08
+# Fork: 1 of 5
+# Warmup Iteration   1: 25.657 ns/op
+# Warmup Iteration   2: 25.089 ns/op
+# Warmup Iteration   3: 22.847 ns/op
+# Warmup Iteration   4: 22.999 ns/op
+# Warmup Iteration   5: 25.252 ns/op
+Iteration   1: 22.966 ns/op
+Iteration   2: 22.926 ns/op
+Iteration   3: 22.942 ns/op
+Iteration   4: 22.829 ns/op
+Iteration   5: 22.821 ns/op
+
+# Run progress: 5.71% complete, ETA 02:45:28
+# Fork: 2 of 5
+# Warmup Iteration   1: 26.155 ns/op
+# Warmup Iteration   2: 25.025 ns/op
+# Warmup Iteration   3: 22.785 ns/op
+# Warmup Iteration   4: 22.935 ns/op
+# Warmup Iteration   5: 22.863 ns/op
+Iteration   1: 22.942 ns/op
+Iteration   2: 22.839 ns/op
+Iteration   3: 22.899 ns/op
+Iteration   4: 23.047 ns/op
+Iteration   5: 22.898 ns/op
+
+# Run progress: 6.67% complete, ETA 02:43:47
+# Fork: 3 of 5
+# Warmup Iteration   1: 25.973 ns/op
+# Warmup Iteration   2: 25.174 ns/op
+# Warmup Iteration   3: 23.291 ns/op
+# Warmup Iteration   4: 23.062 ns/op
+# Warmup Iteration   5: 23.171 ns/op
+Iteration   1: 23.229 ns/op
+Iteration   2: 23.086 ns/op
+Iteration   3: 23.085 ns/op
+Iteration   4: 23.136 ns/op
+Iteration   5: 23.319 ns/op
+
+# Run progress: 7.62% complete, ETA 02:42:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 25.796 ns/op
+# Warmup Iteration   2: 25.082 ns/op
+# Warmup Iteration   3: 22.808 ns/op
+# Warmup Iteration   4: 22.880 ns/op
+# Warmup Iteration   5: 22.910 ns/op
+Iteration   1: 22.968 ns/op
+Iteration   2: 22.916 ns/op
+Iteration   3: 22.912 ns/op
+Iteration   4: 23.002 ns/op
+Iteration   5: 22.923 ns/op
+
+# Run progress: 8.57% complete, ETA 02:40:26
+# Fork: 5 of 5
+# Warmup Iteration   1: 26.125 ns/op
+# Warmup Iteration   2: 25.096 ns/op
+# Warmup Iteration   3: 23.642 ns/op
+# Warmup Iteration   4: 22.996 ns/op
+# Warmup Iteration   5: 23.260 ns/op
+Iteration   1: 23.005 ns/op
+Iteration   2: 23.595 ns/op
+Iteration   3: 22.956 ns/op
+Iteration   4: 23.252 ns/op
+Iteration   5: 23.116 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingPlus":
+  23.024 ±(99.9%) 0.132 ns/op [Average]
+  (min, avg, max) = (22.821, 23.024, 23.595), stdev = 0.177
+  CI (99.9%): [22.892, 23.157] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 4)
+
+# Run progress: 9.52% complete, ETA 02:38:45
+# Fork: 1 of 5
+# Warmup Iteration   1: 35.723 ns/op
+# Warmup Iteration   2: 35.243 ns/op
+# Warmup Iteration   3: 33.734 ns/op
+# Warmup Iteration   4: 33.853 ns/op
+# Warmup Iteration   5: 33.698 ns/op
+Iteration   1: 33.588 ns/op
+Iteration   2: 33.552 ns/op
+Iteration   3: 33.501 ns/op
+Iteration   4: 33.674 ns/op
+Iteration   5: 33.731 ns/op
+
+# Run progress: 10.48% complete, ETA 02:37:05
+# Fork: 2 of 5
+# Warmup Iteration   1: 35.503 ns/op
+# Warmup Iteration   2: 35.415 ns/op
+# Warmup Iteration   3: 33.554 ns/op
+# Warmup Iteration   4: 33.594 ns/op
+# Warmup Iteration   5: 33.317 ns/op
+Iteration   1: 33.428 ns/op
+Iteration   2: 33.575 ns/op
+Iteration   3: 33.505 ns/op
+Iteration   4: 33.551 ns/op
+Iteration   5: 33.327 ns/op
+
+# Run progress: 11.43% complete, ETA 02:35:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 35.765 ns/op
+# Warmup Iteration   2: 35.205 ns/op
+# Warmup Iteration   3: 33.559 ns/op
+# Warmup Iteration   4: 33.768 ns/op
+# Warmup Iteration   5: 33.576 ns/op
+Iteration   1: 33.748 ns/op
+Iteration   2: 33.706 ns/op
+Iteration   3: 35.904 ns/op
+Iteration   4: 33.647 ns/op
+Iteration   5: 33.618 ns/op
+
+# Run progress: 12.38% complete, ETA 02:33:44
+# Fork: 4 of 5
+# Warmup Iteration   1: 35.522 ns/op
+# Warmup Iteration   2: 35.197 ns/op
+# Warmup Iteration   3: 33.543 ns/op
+# Warmup Iteration   4: 33.536 ns/op
+# Warmup Iteration   5: 33.542 ns/op
+Iteration   1: 33.831 ns/op
+Iteration   2: 33.632 ns/op
+Iteration   3: 33.509 ns/op
+Iteration   4: 33.807 ns/op
+Iteration   5: 33.659 ns/op
+
+# Run progress: 13.33% complete, ETA 02:32:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 36.142 ns/op
+# Warmup Iteration   2: 35.484 ns/op
+# Warmup Iteration   3: 33.439 ns/op
+# Warmup Iteration   4: 33.421 ns/op
+# Warmup Iteration   5: 33.647 ns/op
+Iteration   1: 33.763 ns/op
+Iteration   2: 33.575 ns/op
+Iteration   3: 33.541 ns/op
+Iteration   4: 33.696 ns/op
+Iteration   5: 33.544 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingPlus":
+  33.704 ±(99.9%) 0.354 ns/op [Average]
+  (min, avg, max) = (33.327, 33.704, 35.904), stdev = 0.473
+  CI (99.9%): [33.350, 34.059] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 10)
+
+# Run progress: 14.29% complete, ETA 02:30:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 109.997 ns/op
+# Warmup Iteration   2: 109.996 ns/op
+# Warmup Iteration   3: 109.036 ns/op
+# Warmup Iteration   4: 108.083 ns/op
+# Warmup Iteration   5: 108.676 ns/op
+Iteration   1: 108.991 ns/op
+Iteration   2: 108.314 ns/op
+Iteration   3: 109.029 ns/op
+Iteration   4: 108.385 ns/op
+Iteration   5: 108.121 ns/op
+
+# Run progress: 15.24% complete, ETA 02:28:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 110.459 ns/op
+# Warmup Iteration   2: 109.477 ns/op
+# Warmup Iteration   3: 109.387 ns/op
+# Warmup Iteration   4: 109.783 ns/op
+# Warmup Iteration   5: 108.741 ns/op
+Iteration   1: 108.390 ns/op
+Iteration   2: 108.851 ns/op
+Iteration   3: 109.079 ns/op
+Iteration   4: 108.740 ns/op
+Iteration   5: 108.800 ns/op
+
+# Run progress: 16.19% complete, ETA 02:27:03
+# Fork: 3 of 5
+# Warmup Iteration   1: 111.958 ns/op
+# Warmup Iteration   2: 110.363 ns/op
+# Warmup Iteration   3: 109.962 ns/op
+# Warmup Iteration   4: 108.753 ns/op
+# Warmup Iteration   5: 108.570 ns/op
+Iteration   1: 108.792 ns/op
+Iteration   2: 109.602 ns/op
+Iteration   3: 108.946 ns/op
+Iteration   4: 109.254 ns/op
+Iteration   5: 108.965 ns/op
+
+# Run progress: 17.14% complete, ETA 02:25:23
+# Fork: 4 of 5
+# Warmup Iteration   1: 111.076 ns/op
+# Warmup Iteration   2: 110.901 ns/op
+# Warmup Iteration   3: 109.089 ns/op
+# Warmup Iteration   4: 109.489 ns/op
+# Warmup Iteration   5: 109.335 ns/op
+Iteration   1: 109.471 ns/op
+Iteration   2: 110.923 ns/op
+Iteration   3: 109.786 ns/op
+Iteration   4: 109.591 ns/op
+Iteration   5: 108.749 ns/op
+
+# Run progress: 18.10% complete, ETA 02:23:42
+# Fork: 5 of 5
+# Warmup Iteration   1: 110.869 ns/op
+# Warmup Iteration   2: 109.770 ns/op
+# Warmup Iteration   3: 109.248 ns/op
+# Warmup Iteration   4: 108.743 ns/op
+# Warmup Iteration   5: 109.121 ns/op
+Iteration   1: 108.615 ns/op
+Iteration   2: 109.941 ns/op
+Iteration   3: 110.731 ns/op
+Iteration   4: 108.896 ns/op
+Iteration   5: 110.712 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingPlus":
+  109.187 ±(99.9%) 0.565 ns/op [Average]
+  (min, avg, max) = (108.121, 109.187, 110.923), stdev = 0.754
+  CI (99.9%): [108.622, 109.752] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 100)
+
+# Run progress: 19.05% complete, ETA 02:22:02
+# Fork: 1 of 5
+# Warmup Iteration   1: 2369.373 ns/op
+# Warmup Iteration   2: 2349.931 ns/op
+# Warmup Iteration   3: 2303.566 ns/op
+# Warmup Iteration   4: 2317.137 ns/op
+# Warmup Iteration   5: 2319.934 ns/op
+Iteration   1: 2353.529 ns/op
+Iteration   2: 2370.345 ns/op
+Iteration   3: 2329.726 ns/op
+Iteration   4: 2393.971 ns/op
+Iteration   5: 2408.830 ns/op
+
+# Run progress: 20.00% complete, ETA 02:20:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 2536.884 ns/op
+# Warmup Iteration   2: 2473.433 ns/op
+# Warmup Iteration   3: 2383.966 ns/op
+# Warmup Iteration   4: 2369.041 ns/op
+# Warmup Iteration   5: 2390.186 ns/op
+Iteration   1: 2410.788 ns/op
+Iteration   2: 2364.172 ns/op
+Iteration   3: 2484.260 ns/op
+Iteration   4: 2425.823 ns/op
+Iteration   5: 2382.042 ns/op
+
+# Run progress: 20.95% complete, ETA 02:18:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 2521.158 ns/op
+# Warmup Iteration   2: 2483.773 ns/op
+# Warmup Iteration   3: 2379.554 ns/op
+# Warmup Iteration   4: 2406.014 ns/op
+# Warmup Iteration   5: 2425.734 ns/op
+Iteration   1: 2396.904 ns/op
+Iteration   2: 2402.421 ns/op
+Iteration   3: 2410.171 ns/op
+Iteration   4: 2381.136 ns/op
+Iteration   5: 2407.888 ns/op
+
+# Run progress: 21.90% complete, ETA 02:17:02
+# Fork: 4 of 5
+# Warmup Iteration   1: 2513.857 ns/op
+# Warmup Iteration   2: 2574.609 ns/op
+# Warmup Iteration   3: 2416.067 ns/op
+# Warmup Iteration   4: 2411.837 ns/op
+# Warmup Iteration   5: 2419.829 ns/op
+Iteration   1: 2514.049 ns/op
+Iteration   2: 2445.865 ns/op
+Iteration   3: 2416.840 ns/op
+Iteration   4: 2420.592 ns/op
+Iteration   5: 2409.102 ns/op
+
+# Run progress: 22.86% complete, ETA 02:15:21
+# Fork: 5 of 5
+# Warmup Iteration   1: 2496.437 ns/op
+# Warmup Iteration   2: 2494.949 ns/op
+# Warmup Iteration   3: 2397.157 ns/op
+# Warmup Iteration   4: 2415.839 ns/op
+# Warmup Iteration   5: 2417.584 ns/op
+Iteration   1: 2423.722 ns/op
+Iteration   2: 2396.207 ns/op
+Iteration   3: 2406.440 ns/op
+Iteration   4: 2421.613 ns/op
+Iteration   5: 2403.934 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingPlus":
+  2407.215 ±(99.9%) 28.119 ns/op [Average]
+  (min, avg, max) = (2329.726, 2407.215, 2514.049), stdev = 37.538
+  CI (99.9%): [2379.096, 2435.334] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 1000)
+
+# Run progress: 23.81% complete, ETA 02:13:41
+# Fork: 1 of 5
+# Warmup Iteration   1: 219965.044 ns/op
+# Warmup Iteration   2: 215180.814 ns/op
+# Warmup Iteration   3: 215598.474 ns/op
+# Warmup Iteration   4: 219864.317 ns/op
+# Warmup Iteration   5: 218832.584 ns/op
+Iteration   1: 215060.468 ns/op
+Iteration   2: 217280.245 ns/op
+Iteration   3: 216134.408 ns/op
+Iteration   4: 214968.488 ns/op
+Iteration   5: 217574.341 ns/op
+
+# Run progress: 24.76% complete, ETA 02:12:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 217589.116 ns/op
+# Warmup Iteration   2: 214791.987 ns/op
+# Warmup Iteration   3: 219587.097 ns/op
+# Warmup Iteration   4: 220605.411 ns/op
+# Warmup Iteration   5: 219269.814 ns/op
+Iteration   1: 220712.443 ns/op
+Iteration   2: 220818.627 ns/op
+Iteration   3: 218940.548 ns/op
+Iteration   4: 222120.885 ns/op
+Iteration   5: 221112.572 ns/op
+
+# Run progress: 25.71% complete, ETA 02:10:20
+# Fork: 3 of 5
+# Warmup Iteration   1: 223807.923 ns/op
+# Warmup Iteration   2: 218498.967 ns/op
+# Warmup Iteration   3: 228429.236 ns/op
+# Warmup Iteration   4: 214575.808 ns/op
+# Warmup Iteration   5: 215828.787 ns/op
+Iteration   1: 216394.918 ns/op
+Iteration   2: 213933.570 ns/op
+Iteration   3: 221684.108 ns/op
+Iteration   4: 215074.117 ns/op
+Iteration   5: 215007.443 ns/op
+
+# Run progress: 26.67% complete, ETA 02:08:40
+# Fork: 4 of 5
+# Warmup Iteration   1: 219906.656 ns/op
+# Warmup Iteration   2: 216411.669 ns/op
+# Warmup Iteration   3: 216685.040 ns/op
+# Warmup Iteration   4: 217787.546 ns/op
+# Warmup Iteration   5: 216518.114 ns/op
+Iteration   1: 214239.634 ns/op
+Iteration   2: 216550.955 ns/op
+Iteration   3: 219261.480 ns/op
+Iteration   4: 219850.152 ns/op
+Iteration   5: 224171.104 ns/op
+
+# Run progress: 27.62% complete, ETA 02:07:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 238387.372 ns/op
+# Warmup Iteration   2: 222257.407 ns/op
+# Warmup Iteration   3: 225732.718 ns/op
+# Warmup Iteration   4: 223550.728 ns/op
+# Warmup Iteration   5: 222926.669 ns/op
+Iteration   1: 223371.039 ns/op
+Iteration   2: 223723.059 ns/op
+Iteration   3: 219588.983 ns/op
+Iteration   4: 223216.511 ns/op
+Iteration   5: 222354.012 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingPlus":
+  218925.764 ±(99.9%) 2481.001 ns/op [Average]
+  (min, avg, max) = (213933.570, 218925.764, 224171.104), stdev = 3312.066
+  CI (99.9%): [216444.763, 221406.766] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingPlus
+# Parameters: (stringCount = 10000)
+
+# Run progress: 28.57% complete, ETA 02:05:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 24285854.167 ns/op
+# Warmup Iteration   2: 23993219.324 ns/op
+# Warmup Iteration   3: 24045439.348 ns/op
+# Warmup Iteration   4: 23962166.268 ns/op
+# Warmup Iteration   5: 23851128.076 ns/op
+Iteration   1: 23952676.136 ns/op
+Iteration   2: 23843762.998 ns/op
+Iteration   3: 23841648.214 ns/op
+Iteration   4: 24253311.642 ns/op
+Iteration   5: 24269251.714 ns/op
+
+# Run progress: 29.52% complete, ETA 02:03:40
+# Fork: 2 of 5
+# Warmup Iteration   1: 24243975.889 ns/op
+# Warmup Iteration   2: 23864155.060 ns/op
+# Warmup Iteration   3: 23875952.663 ns/op
+# Warmup Iteration   4: 23907312.351 ns/op
+# Warmup Iteration   5: 23958078.548 ns/op
+Iteration   1: 23979789.474 ns/op
+Iteration   2: 23860731.645 ns/op
+Iteration   3: 23941223.549 ns/op
+Iteration   4: 23875629.573 ns/op
+Iteration   5: 23912412.790 ns/op
+
+# Run progress: 30.48% complete, ETA 02:02:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 24211399.857 ns/op
+# Warmup Iteration   2: 23909252.785 ns/op
+# Warmup Iteration   3: 23876081.745 ns/op
+# Warmup Iteration   4: 23920176.611 ns/op
+# Warmup Iteration   5: 24257614.709 ns/op
+Iteration   1: 23871985.912 ns/op
+Iteration   2: 24278584.644 ns/op
+Iteration   3: 23844580.457 ns/op
+Iteration   4: 23890833.236 ns/op
+Iteration   5: 23986375.499 ns/op
+
+# Run progress: 31.43% complete, ETA 02:00:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 24280738.167 ns/op
+# Warmup Iteration   2: 23928205.747 ns/op
+# Warmup Iteration   3: 23963949.263 ns/op
+# Warmup Iteration   4: 23997677.830 ns/op
+# Warmup Iteration   5: 23869899.802 ns/op
+Iteration   1: 23954835.627 ns/op
+Iteration   2: 23917470.465 ns/op
+Iteration   3: 23871145.338 ns/op
+Iteration   4: 23956985.447 ns/op
+Iteration   5: 23850982.838 ns/op
+
+# Run progress: 32.38% complete, ETA 01:58:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 24152602.410 ns/op
+# Warmup Iteration   2: 23925902.014 ns/op
+# Warmup Iteration   3: 24116570.613 ns/op
+# Warmup Iteration   4: 23876093.155 ns/op
+# Warmup Iteration   5: 24122260.643 ns/op
+Iteration   1: 23918744.728 ns/op
+Iteration   2: 23813745.746 ns/op
+Iteration   3: 23918586.516 ns/op
+Iteration   4: 23897590.990 ns/op
+Iteration   5: 23882646.131 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingPlus":
+  23943421.252 ±(99.9%) 97512.854 ns/op [Average]
+  (min, avg, max) = (23813745.746, 23943421.252, 24278584.644), stdev = 130176.871
+  CI (99.9%): [23845908.398, 24040934.107] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -93,77 +604,588 @@ Result "org.sample.StringConcatBenchmark.concatUsingPlus":
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 2)
 
-# Run progress: 33.33% complete, ETA 00:16:43
+# Run progress: 33.33% complete, ETA 01:57:00
 # Fork: 1 of 5
-# Warmup Iteration   1: 17.669 ns/op
-# Warmup Iteration   2: 20.977 ns/op
-# Warmup Iteration   3: 19.822 ns/op
-# Warmup Iteration   4: 21.724 ns/op
-# Warmup Iteration   5: 22.557 ns/op
-Iteration   1: 20.708 ns/op
-Iteration   2: 20.520 ns/op
-Iteration   3: 19.944 ns/op
-Iteration   4: 20.263 ns/op
-Iteration   5: 22.351 ns/op
+# Warmup Iteration   1: 35.929 ns/op
+# Warmup Iteration   2: 40.585 ns/op
+# Warmup Iteration   3: 30.471 ns/op
+# Warmup Iteration   4: 30.512 ns/op
+# Warmup Iteration   5: 30.172 ns/op
+Iteration   1: 30.506 ns/op
+Iteration   2: 30.193 ns/op
+Iteration   3: 30.265 ns/op
+Iteration   4: 30.496 ns/op
+Iteration   5: 30.317 ns/op
 
-# Run progress: 40.00% complete, ETA 00:15:03
+# Run progress: 34.29% complete, ETA 01:55:19
 # Fork: 2 of 5
-# Warmup Iteration   1: 25.295 ns/op
-# Warmup Iteration   2: 17.248 ns/op
-# Warmup Iteration   3: 16.853 ns/op
-# Warmup Iteration   4: 17.063 ns/op
-# Warmup Iteration   5: 19.598 ns/op
-Iteration   1: 16.893 ns/op
-Iteration   2: 16.907 ns/op
-Iteration   3: 17.105 ns/op
-Iteration   4: 16.957 ns/op
-Iteration   5: 18.679 ns/op
+# Warmup Iteration   1: 35.702 ns/op
+# Warmup Iteration   2: 40.777 ns/op
+# Warmup Iteration   3: 30.200 ns/op
+# Warmup Iteration   4: 30.197 ns/op
+# Warmup Iteration   5: 30.280 ns/op
+Iteration   1: 30.240 ns/op
+Iteration   2: 30.119 ns/op
+Iteration   3: 30.358 ns/op
+Iteration   4: 30.167 ns/op
+Iteration   5: 30.173 ns/op
 
-# Run progress: 46.67% complete, ETA 00:13:23
+# Run progress: 35.24% complete, ETA 01:53:39
 # Fork: 3 of 5
-# Warmup Iteration   1: 22.130 ns/op
-# Warmup Iteration   2: 20.438 ns/op
-# Warmup Iteration   3: 18.480 ns/op
-# Warmup Iteration   4: 18.944 ns/op
-# Warmup Iteration   5: 18.502 ns/op
-Iteration   1: 19.163 ns/op
-Iteration   2: 18.708 ns/op
-Iteration   3: 18.633 ns/op
-Iteration   4: 27.895 ns/op
-Iteration   5: 20.449 ns/op
+# Warmup Iteration   1: 35.682 ns/op
+# Warmup Iteration   2: 40.688 ns/op
+# Warmup Iteration   3: 30.074 ns/op
+# Warmup Iteration   4: 30.189 ns/op
+# Warmup Iteration   5: 30.054 ns/op
+Iteration   1: 30.138 ns/op
+Iteration   2: 30.192 ns/op
+Iteration   3: 29.997 ns/op
+Iteration   4: 30.006 ns/op
+Iteration   5: 30.222 ns/op
 
-# Run progress: 53.33% complete, ETA 00:11:43
+# Run progress: 36.19% complete, ETA 01:51:59
 # Fork: 4 of 5
-# Warmup Iteration   1: 23.871 ns/op
-# Warmup Iteration   2: 32.549 ns/op
-# Warmup Iteration   3: 23.297 ns/op
-# Warmup Iteration   4: 18.523 ns/op
-# Warmup Iteration   5: 28.398 ns/op
-Iteration   1: 33.097 ns/op
-Iteration   2: 29.482 ns/op
-Iteration   3: 30.520 ns/op
-Iteration   4: 42.307 ns/op
-Iteration   5: 46.195 ns/op
+# Warmup Iteration   1: 35.460 ns/op
+# Warmup Iteration   2: 40.624 ns/op
+# Warmup Iteration   3: 30.201 ns/op
+# Warmup Iteration   4: 30.050 ns/op
+# Warmup Iteration   5: 30.149 ns/op
+Iteration   1: 30.307 ns/op
+Iteration   2: 30.014 ns/op
+Iteration   3: 30.027 ns/op
+Iteration   4: 30.335 ns/op
+Iteration   5: 29.538 ns/op
 
-# Run progress: 60.00% complete, ETA 00:10:02
+# Run progress: 37.14% complete, ETA 01:50:18
 # Fork: 5 of 5
-# Warmup Iteration   1: 30.859 ns/op
-# Warmup Iteration   2: 19.410 ns/op
-# Warmup Iteration   3: 17.167 ns/op
-# Warmup Iteration   4: 17.093 ns/op
-# Warmup Iteration   5: 16.977 ns/op
-Iteration   1: 17.314 ns/op
-Iteration   2: 17.139 ns/op
-Iteration   3: 17.616 ns/op
-Iteration   4: 18.537 ns/op
-Iteration   5: 17.353 ns/op
+# Warmup Iteration   1: 35.829 ns/op
+# Warmup Iteration   2: 40.971 ns/op
+# Warmup Iteration   3: 30.110 ns/op
+# Warmup Iteration   4: 30.263 ns/op
+# Warmup Iteration   5: 30.278 ns/op
+Iteration   1: 30.105 ns/op
+Iteration   2: 30.162 ns/op
+Iteration   3: 30.314 ns/op
+Iteration   4: 29.821 ns/op
+Iteration   5: 30.144 ns/op
 
 
 Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
-  22.589 ±(99.9%) 5.981 ns/op [Average]
-  (min, avg, max) = (16.893, 22.589, 46.195), stdev = 7.985
-  CI (99.9%): [16.608, 28.571] (assumes normal distribution)
+  30.166 ±(99.9%) 0.152 ns/op [Average]
+  (min, avg, max) = (29.538, 30.166, 30.506), stdev = 0.203
+  CI (99.9%): [30.014, 30.318] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 3)
+
+# Run progress: 38.10% complete, ETA 01:48:38
+# Fork: 1 of 5
+# Warmup Iteration   1: 72.927 ns/op
+# Warmup Iteration   2: 72.740 ns/op
+# Warmup Iteration   3: 73.270 ns/op
+# Warmup Iteration   4: 72.252 ns/op
+# Warmup Iteration   5: 72.763 ns/op
+Iteration   1: 72.827 ns/op
+Iteration   2: 72.378 ns/op
+Iteration   3: 72.436 ns/op
+Iteration   4: 71.997 ns/op
+Iteration   5: 73.115 ns/op
+
+# Run progress: 39.05% complete, ETA 01:46:58
+# Fork: 2 of 5
+# Warmup Iteration   1: 73.174 ns/op
+# Warmup Iteration   2: 73.304 ns/op
+# Warmup Iteration   3: 73.359 ns/op
+# Warmup Iteration   4: 73.115 ns/op
+# Warmup Iteration   5: 73.276 ns/op
+Iteration   1: 73.128 ns/op
+Iteration   2: 72.913 ns/op
+Iteration   3: 72.455 ns/op
+Iteration   4: 72.798 ns/op
+Iteration   5: 73.728 ns/op
+
+# Run progress: 40.00% complete, ETA 01:45:17
+# Fork: 3 of 5
+# Warmup Iteration   1: 72.431 ns/op
+# Warmup Iteration   2: 74.554 ns/op
+# Warmup Iteration   3: 74.100 ns/op
+# Warmup Iteration   4: 73.835 ns/op
+# Warmup Iteration   5: 72.813 ns/op
+Iteration   1: 73.912 ns/op
+Iteration   2: 72.707 ns/op
+Iteration   3: 73.877 ns/op
+Iteration   4: 72.672 ns/op
+Iteration   5: 74.538 ns/op
+
+# Run progress: 40.95% complete, ETA 01:43:37
+# Fork: 4 of 5
+# Warmup Iteration   1: 74.353 ns/op
+# Warmup Iteration   2: 71.472 ns/op
+# Warmup Iteration   3: 73.746 ns/op
+# Warmup Iteration   4: 74.144 ns/op
+# Warmup Iteration   5: 75.234 ns/op
+Iteration   1: 75.100 ns/op
+Iteration   2: 79.850 ns/op
+Iteration   3: 83.883 ns/op
+Iteration   4: 77.526 ns/op
+Iteration   5: 73.569 ns/op
+
+# Run progress: 41.90% complete, ETA 01:41:57
+# Fork: 5 of 5
+# Warmup Iteration   1: 72.291 ns/op
+# Warmup Iteration   2: 69.951 ns/op
+# Warmup Iteration   3: 72.037 ns/op
+# Warmup Iteration   4: 72.627 ns/op
+# Warmup Iteration   5: 72.752 ns/op
+Iteration   1: 72.233 ns/op
+Iteration   2: 72.390 ns/op
+Iteration   3: 72.640 ns/op
+Iteration   4: 72.372 ns/op
+Iteration   5: 72.289 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
+  73.893 ±(99.9%) 2.048 ns/op [Average]
+  (min, avg, max) = (71.997, 73.893, 83.883), stdev = 2.734
+  CI (99.9%): [71.845, 75.942] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 4)
+
+# Run progress: 42.86% complete, ETA 01:40:16
+# Fork: 1 of 5
+# Warmup Iteration   1: 48.210 ns/op
+# Warmup Iteration   2: 50.526 ns/op
+# Warmup Iteration   3: 38.938 ns/op
+# Warmup Iteration   4: 38.774 ns/op
+# Warmup Iteration   5: 38.584 ns/op
+Iteration   1: 77.506 ns/op
+Iteration   2: 77.818 ns/op
+Iteration   3: 38.185 ns/op
+Iteration   4: 141.925 ns/op
+Iteration   5: 73.077 ns/op
+
+# Run progress: 43.81% complete, ETA 01:38:36
+# Fork: 2 of 5
+# Warmup Iteration   1: 51.883 ns/op
+# Warmup Iteration   2: 142.747 ns/op
+# Warmup Iteration   3: 146.086 ns/op
+# Warmup Iteration   4: 141.344 ns/op
+# Warmup Iteration   5: 142.734 ns/op
+Iteration   1: 38.713 ns/op
+Iteration   2: 146.861 ns/op
+Iteration   3: 77.272 ns/op
+Iteration   4: 38.284 ns/op
+Iteration   5: 142.925 ns/op
+
+# Run progress: 44.76% complete, ETA 01:36:55
+# Fork: 3 of 5
+# Warmup Iteration   1: 41.457 ns/op
+# Warmup Iteration   2: 142.260 ns/op
+# Warmup Iteration   3: 143.865 ns/op
+# Warmup Iteration   4: 144.802 ns/op
+# Warmup Iteration   5: 142.870 ns/op
+Iteration   1: 146.790 ns/op
+Iteration   2: 77.758 ns/op
+Iteration   3: 145.833 ns/op
+Iteration   4: 78.596 ns/op
+Iteration   5: 73.564 ns/op
+
+# Run progress: 45.71% complete, ETA 01:35:15
+# Fork: 4 of 5
+# Warmup Iteration   1: 48.439 ns/op
+# Warmup Iteration   2: 87.706 ns/op
+# Warmup Iteration   3: 77.380 ns/op
+# Warmup Iteration   4: 77.602 ns/op
+# Warmup Iteration   5: 77.984 ns/op
+Iteration   1: 73.813 ns/op
+Iteration   2: 77.398 ns/op
+Iteration   3: 82.045 ns/op
+Iteration   4: 140.288 ns/op
+Iteration   5: 38.681 ns/op
+
+# Run progress: 46.67% complete, ETA 01:33:35
+# Fork: 5 of 5
+# Warmup Iteration   1: 41.282 ns/op
+# Warmup Iteration   2: 87.637 ns/op
+# Warmup Iteration   3: 77.930 ns/op
+# Warmup Iteration   4: 78.162 ns/op
+# Warmup Iteration   5: 77.667 ns/op
+Iteration   1: 77.787 ns/op
+Iteration   2: 77.922 ns/op
+Iteration   3: 38.383 ns/op
+Iteration   4: 73.297 ns/op
+Iteration   5: 146.131 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
+  88.034 ±(99.9%) 29.134 ns/op [Average]
+  (min, avg, max) = (38.185, 88.034, 146.861), stdev = 38.893
+  CI (99.9%): [58.900, 117.168] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 10)
+
+# Run progress: 47.62% complete, ETA 01:31:55
+# Fork: 1 of 5
+# Warmup Iteration   1: 75.088 ns/op
+# Warmup Iteration   2: 79.614 ns/op
+# Warmup Iteration   3: 94.664 ns/op
+# Warmup Iteration   4: 92.745 ns/op
+# Warmup Iteration   5: 93.137 ns/op
+Iteration   1: 92.730 ns/op
+Iteration   2: 93.077 ns/op
+Iteration   3: 93.266 ns/op
+Iteration   4: 92.699 ns/op
+Iteration   5: 92.900 ns/op
+
+# Run progress: 48.57% complete, ETA 01:30:14
+# Fork: 2 of 5
+# Warmup Iteration   1: 75.570 ns/op
+# Warmup Iteration   2: 81.176 ns/op
+# Warmup Iteration   3: 92.594 ns/op
+# Warmup Iteration   4: 92.597 ns/op
+# Warmup Iteration   5: 92.822 ns/op
+Iteration   1: 92.528 ns/op
+Iteration   2: 93.196 ns/op
+Iteration   3: 92.604 ns/op
+Iteration   4: 92.675 ns/op
+Iteration   5: 92.667 ns/op
+
+# Run progress: 49.52% complete, ETA 01:28:34
+# Fork: 3 of 5
+# Warmup Iteration   1: 76.376 ns/op
+# Warmup Iteration   2: 80.594 ns/op
+# Warmup Iteration   3: 93.009 ns/op
+# Warmup Iteration   4: 93.280 ns/op
+# Warmup Iteration   5: 92.877 ns/op
+Iteration   1: 93.690 ns/op
+Iteration   2: 92.954 ns/op
+Iteration   3: 93.208 ns/op
+Iteration   4: 93.027 ns/op
+Iteration   5: 93.037 ns/op
+
+# Run progress: 50.48% complete, ETA 01:26:54
+# Fork: 4 of 5
+# Warmup Iteration   1: 76.001 ns/op
+# Warmup Iteration   2: 80.974 ns/op
+# Warmup Iteration   3: 93.144 ns/op
+# Warmup Iteration   4: 93.325 ns/op
+# Warmup Iteration   5: 93.006 ns/op
+Iteration   1: 93.217 ns/op
+Iteration   2: 92.775 ns/op
+Iteration   3: 93.118 ns/op
+Iteration   4: 92.935 ns/op
+Iteration   5: 92.973 ns/op
+
+# Run progress: 51.43% complete, ETA 01:25:14
+# Fork: 5 of 5
+# Warmup Iteration   1: 76.502 ns/op
+# Warmup Iteration   2: 81.495 ns/op
+# Warmup Iteration   3: 92.383 ns/op
+# Warmup Iteration   4: 92.906 ns/op
+# Warmup Iteration   5: 92.656 ns/op
+Iteration   1: 92.344 ns/op
+Iteration   2: 93.083 ns/op
+Iteration   3: 92.582 ns/op
+Iteration   4: 92.377 ns/op
+Iteration   5: 92.654 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
+  92.893 ±(99.9%) 0.235 ns/op [Average]
+  (min, avg, max) = (92.344, 92.893, 93.690), stdev = 0.313
+  CI (99.9%): [92.658, 93.127] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 100)
+
+# Run progress: 52.38% complete, ETA 01:23:33
+# Fork: 1 of 5
+# Warmup Iteration   1: 628.032 ns/op
+# Warmup Iteration   2: 696.661 ns/op
+# Warmup Iteration   3: 919.876 ns/op
+# Warmup Iteration   4: 922.861 ns/op
+# Warmup Iteration   5: 922.451 ns/op
+Iteration   1: 920.909 ns/op
+Iteration   2: 920.160 ns/op
+Iteration   3: 918.709 ns/op
+Iteration   4: 921.909 ns/op
+Iteration   5: 919.952 ns/op
+
+# Run progress: 53.33% complete, ETA 01:21:53
+# Fork: 2 of 5
+# Warmup Iteration   1: 623.861 ns/op
+# Warmup Iteration   2: 692.134 ns/op
+# Warmup Iteration   3: 921.101 ns/op
+# Warmup Iteration   4: 920.887 ns/op
+# Warmup Iteration   5: 920.194 ns/op
+Iteration   1: 925.435 ns/op
+Iteration   2: 919.352 ns/op
+Iteration   3: 922.079 ns/op
+Iteration   4: 920.004 ns/op
+Iteration   5: 920.022 ns/op
+
+# Run progress: 54.29% complete, ETA 01:20:13
+# Fork: 3 of 5
+# Warmup Iteration   1: 626.468 ns/op
+# Warmup Iteration   2: 688.255 ns/op
+# Warmup Iteration   3: 920.240 ns/op
+# Warmup Iteration   4: 919.191 ns/op
+# Warmup Iteration   5: 921.557 ns/op
+Iteration   1: 918.776 ns/op
+Iteration   2: 919.637 ns/op
+Iteration   3: 921.016 ns/op
+Iteration   4: 918.796 ns/op
+Iteration   5: 929.620 ns/op
+
+# Run progress: 55.24% complete, ETA 01:18:32
+# Fork: 4 of 5
+# Warmup Iteration   1: 625.102 ns/op
+# Warmup Iteration   2: 686.589 ns/op
+# Warmup Iteration   3: 925.015 ns/op
+# Warmup Iteration   4: 923.336 ns/op
+# Warmup Iteration   5: 919.636 ns/op
+Iteration   1: 922.245 ns/op
+Iteration   2: 921.499 ns/op
+Iteration   3: 924.448 ns/op
+Iteration   4: 921.017 ns/op
+Iteration   5: 924.761 ns/op
+
+# Run progress: 56.19% complete, ETA 01:16:52
+# Fork: 5 of 5
+# Warmup Iteration   1: 624.364 ns/op
+# Warmup Iteration   2: 688.666 ns/op
+# Warmup Iteration   3: 925.207 ns/op
+# Warmup Iteration   4: 918.456 ns/op
+# Warmup Iteration   5: 922.014 ns/op
+Iteration   1: 922.674 ns/op
+Iteration   2: 922.272 ns/op
+Iteration   3: 923.178 ns/op
+Iteration   4: 919.633 ns/op
+Iteration   5: 920.953 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
+  921.562 ±(99.9%) 1.875 ns/op [Average]
+  (min, avg, max) = (918.709, 921.562, 929.620), stdev = 2.503
+  CI (99.9%): [919.687, 923.437] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 1000)
+
+# Run progress: 57.14% complete, ETA 01:15:12
+# Fork: 1 of 5
+# Warmup Iteration   1: 6625.249 ns/op
+# Warmup Iteration   2: 7266.710 ns/op
+# Warmup Iteration   3: 10157.305 ns/op
+# Warmup Iteration   4: 10165.800 ns/op
+# Warmup Iteration   5: 10186.607 ns/op
+Iteration   1: 10196.668 ns/op
+Iteration   2: 10191.260 ns/op
+Iteration   3: 10174.547 ns/op
+Iteration   4: 10174.543 ns/op
+Iteration   5: 10164.211 ns/op
+
+# Run progress: 58.10% complete, ETA 01:13:32
+# Fork: 2 of 5
+# Warmup Iteration   1: 6698.444 ns/op
+# Warmup Iteration   2: 7377.962 ns/op
+# Warmup Iteration   3: 10481.961 ns/op
+# Warmup Iteration   4: 10494.208 ns/op
+# Warmup Iteration   5: 10459.933 ns/op
+Iteration   1: 10547.044 ns/op
+Iteration   2: 10472.835 ns/op
+Iteration   3: 10462.142 ns/op
+Iteration   4: 10504.309 ns/op
+Iteration   5: 10516.961 ns/op
+
+# Run progress: 59.05% complete, ETA 01:11:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 6531.603 ns/op
+# Warmup Iteration   2: 7175.795 ns/op
+# Warmup Iteration   3: 9844.015 ns/op
+# Warmup Iteration   4: 9821.414 ns/op
+# Warmup Iteration   5: 9830.635 ns/op
+Iteration   1: 9855.918 ns/op
+Iteration   2: 9816.091 ns/op
+Iteration   3: 9844.342 ns/op
+Iteration   4: 9830.842 ns/op
+Iteration   5: 9834.740 ns/op
+
+# Run progress: 60.00% complete, ETA 01:10:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 6552.703 ns/op
+# Warmup Iteration   2: 7187.518 ns/op
+# Warmup Iteration   3: 9919.480 ns/op
+# Warmup Iteration   4: 9980.960 ns/op
+# Warmup Iteration   5: 9935.840 ns/op
+Iteration   1: 9903.913 ns/op
+Iteration   2: 9932.914 ns/op
+Iteration   3: 9962.142 ns/op
+Iteration   4: 9901.781 ns/op
+Iteration   5: 9929.475 ns/op
+
+# Run progress: 60.95% complete, ETA 01:08:31
+# Fork: 5 of 5
+# Warmup Iteration   1: 6524.503 ns/op
+# Warmup Iteration   2: 7164.675 ns/op
+# Warmup Iteration   3: 9815.268 ns/op
+# Warmup Iteration   4: 9828.731 ns/op
+# Warmup Iteration   5: 9801.278 ns/op
+Iteration   1: 9807.624 ns/op
+Iteration   2: 9829.364 ns/op
+Iteration   3: 9802.823 ns/op
+Iteration   4: 9845.868 ns/op
+Iteration   5: 9814.669 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
+  10052.681 ±(99.9%) 198.152 ns/op [Average]
+  (min, avg, max) = (9802.823, 10052.681, 10547.044), stdev = 264.527
+  CI (99.9%): [9854.529, 10250.833] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuffer
+# Parameters: (stringCount = 10000)
+
+# Run progress: 61.90% complete, ETA 01:06:50
+# Fork: 1 of 5
+# Warmup Iteration   1: 56645.770 ns/op
+# Warmup Iteration   2: 61821.658 ns/op
+# Warmup Iteration   3: 95742.735 ns/op
+# Warmup Iteration   4: 95925.486 ns/op
+# Warmup Iteration   5: 95889.371 ns/op
+Iteration   1: 96316.926 ns/op
+Iteration   2: 95724.672 ns/op
+Iteration   3: 95738.297 ns/op
+Iteration   4: 96377.629 ns/op
+Iteration   5: 95725.747 ns/op
+
+# Run progress: 62.86% complete, ETA 01:05:10
+# Fork: 2 of 5
+# Warmup Iteration   1: 56478.063 ns/op
+# Warmup Iteration   2: 61468.082 ns/op
+# Warmup Iteration   3: 95053.799 ns/op
+# Warmup Iteration   4: 94908.252 ns/op
+# Warmup Iteration   5: 95462.440 ns/op
+Iteration   1: 95459.983 ns/op
+Iteration   2: 95046.449 ns/op
+Iteration   3: 95133.857 ns/op
+Iteration   4: 94873.589 ns/op
+Iteration   5: 95412.525 ns/op
+
+# Run progress: 63.81% complete, ETA 01:03:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 56243.969 ns/op
+# Warmup Iteration   2: 61350.114 ns/op
+# Warmup Iteration   3: 94986.182 ns/op
+# Warmup Iteration   4: 94892.108 ns/op
+# Warmup Iteration   5: 94810.719 ns/op
+Iteration   1: 94705.350 ns/op
+Iteration   2: 94802.607 ns/op
+Iteration   3: 95176.001 ns/op
+Iteration   4: 94855.207 ns/op
+Iteration   5: 95015.128 ns/op
+
+# Run progress: 64.76% complete, ETA 01:01:50
+# Fork: 4 of 5
+# Warmup Iteration   1: 56653.835 ns/op
+# Warmup Iteration   2: 61895.525 ns/op
+# Warmup Iteration   3: 94577.385 ns/op
+# Warmup Iteration   4: 94455.857 ns/op
+# Warmup Iteration   5: 94745.301 ns/op
+Iteration   1: 94681.197 ns/op
+Iteration   2: 95501.009 ns/op
+Iteration   3: 96722.568 ns/op
+Iteration   4: 95459.633 ns/op
+Iteration   5: 95108.143 ns/op
+
+# Run progress: 65.71% complete, ETA 01:00:09
+# Fork: 5 of 5
+# Warmup Iteration   1: 56346.435 ns/op
+# Warmup Iteration   2: 61819.397 ns/op
+# Warmup Iteration   3: 94528.090 ns/op
+# Warmup Iteration   4: 94922.326 ns/op
+# Warmup Iteration   5: 94742.720 ns/op
+Iteration   1: 94529.301 ns/op
+Iteration   2: 94876.545 ns/op
+Iteration   3: 94578.904 ns/op
+Iteration   4: 94630.104 ns/op
+Iteration   5: 94532.255 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
+  95239.345 ±(99.9%) 451.143 ns/op [Average]
+  (min, avg, max) = (94529.301, 95239.345, 96722.568), stdev = 602.263
+  CI (99.9%): [94788.202, 95690.488] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -177,80 +1199,591 @@ Result "org.sample.StringConcatBenchmark.concatUsingStringBuffer":
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 2)
 
-# Run progress: 66.67% complete, ETA 00:08:22
+# Run progress: 66.67% complete, ETA 00:58:29
 # Fork: 1 of 5
-# Warmup Iteration   1: 24.974 ns/op
-# Warmup Iteration   2: 31.579 ns/op
-# Warmup Iteration   3: 21.187 ns/op
-# Warmup Iteration   4: 27.209 ns/op
-# Warmup Iteration   5: 40.649 ns/op
-Iteration   1: 17.204 ns/op
-Iteration   2: 16.705 ns/op
-Iteration   3: 16.960 ns/op
-Iteration   4: 16.793 ns/op
-Iteration   5: 17.441 ns/op
+# Warmup Iteration   1: 29.752 ns/op
+# Warmup Iteration   2: 29.764 ns/op
+# Warmup Iteration   3: 24.167 ns/op
+# Warmup Iteration   4: 24.183 ns/op
+# Warmup Iteration   5: 24.111 ns/op
+Iteration   1: 24.179 ns/op
+Iteration   2: 24.159 ns/op
+Iteration   3: 24.131 ns/op
+Iteration   4: 24.196 ns/op
+Iteration   5: 24.134 ns/op
 
-# Run progress: 73.33% complete, ETA 00:06:41
+# Run progress: 67.62% complete, ETA 00:56:49
 # Fork: 2 of 5
-# Warmup Iteration   1: 18.322 ns/op
-# Warmup Iteration   2: 16.842 ns/op
-# Warmup Iteration   3: 18.001 ns/op
-# Warmup Iteration   4: 17.197 ns/op
-# Warmup Iteration   5: 16.697 ns/op
-Iteration   1: 16.824 ns/op
-Iteration   2: 16.825 ns/op
-Iteration   3: 23.279 ns/op
-Iteration   4: 17.577 ns/op
-Iteration   5: 16.675 ns/op
+# Warmup Iteration   1: 30.051 ns/op
+# Warmup Iteration   2: 29.940 ns/op
+# Warmup Iteration   3: 24.257 ns/op
+# Warmup Iteration   4: 24.126 ns/op
+# Warmup Iteration   5: 24.121 ns/op
+Iteration   1: 24.188 ns/op
+Iteration   2: 24.099 ns/op
+Iteration   3: 24.176 ns/op
+Iteration   4: 24.185 ns/op
+Iteration   5: 24.168 ns/op
 
-# Run progress: 80.00% complete, ETA 00:05:01
+# Run progress: 68.57% complete, ETA 00:55:08
 # Fork: 3 of 5
-# Warmup Iteration   1: 17.372 ns/op
-# Warmup Iteration   2: 19.401 ns/op
-# Warmup Iteration   3: 16.736 ns/op
-# Warmup Iteration   4: 16.762 ns/op
-# Warmup Iteration   5: 19.759 ns/op
-Iteration   1: 16.946 ns/op
-Iteration   2: 16.756 ns/op
-Iteration   3: 17.445 ns/op
-Iteration   4: 16.767 ns/op
-Iteration   5: 17.257 ns/op
+# Warmup Iteration   1: 29.732 ns/op
+# Warmup Iteration   2: 29.650 ns/op
+# Warmup Iteration   3: 24.182 ns/op
+# Warmup Iteration   4: 24.214 ns/op
+# Warmup Iteration   5: 24.266 ns/op
+Iteration   1: 24.119 ns/op
+Iteration   2: 24.133 ns/op
+Iteration   3: 24.171 ns/op
+Iteration   4: 24.145 ns/op
+Iteration   5: 24.174 ns/op
 
-# Run progress: 86.67% complete, ETA 00:03:20
+# Run progress: 69.52% complete, ETA 00:53:28
 # Fork: 4 of 5
-# Warmup Iteration   1: 18.484 ns/op
-# Warmup Iteration   2: 17.916 ns/op
-# Warmup Iteration   3: 17.447 ns/op
-# Warmup Iteration   4: 17.161 ns/op
-# Warmup Iteration   5: 17.434 ns/op
-Iteration   1: 17.225 ns/op
-Iteration   2: 17.471 ns/op
-Iteration   3: 17.281 ns/op
-Iteration   4: 17.220 ns/op
-Iteration   5: 17.259 ns/op
+# Warmup Iteration   1: 29.700 ns/op
+# Warmup Iteration   2: 29.658 ns/op
+# Warmup Iteration   3: 24.327 ns/op
+# Warmup Iteration   4: 24.213 ns/op
+# Warmup Iteration   5: 24.347 ns/op
+Iteration   1: 24.246 ns/op
+Iteration   2: 24.447 ns/op
+Iteration   3: 24.238 ns/op
+Iteration   4: 24.306 ns/op
+Iteration   5: 24.417 ns/op
 
-# Run progress: 93.33% complete, ETA 00:01:40
+# Run progress: 70.48% complete, ETA 00:51:48
 # Fork: 5 of 5
-# Warmup Iteration   1: 19.358 ns/op
-# Warmup Iteration   2: 17.101 ns/op
-# Warmup Iteration   3: 17.657 ns/op
-# Warmup Iteration   4: 16.790 ns/op
-# Warmup Iteration   5: 18.490 ns/op
-Iteration   1: 16.781 ns/op
-Iteration   2: 19.105 ns/op
-Iteration   3: 31.437 ns/op
-Iteration   4: 17.869 ns/op
-Iteration   5: 17.204 ns/op
+# Warmup Iteration   1: 29.777 ns/op
+# Warmup Iteration   2: 29.866 ns/op
+# Warmup Iteration   3: 24.340 ns/op
+# Warmup Iteration   4: 24.333 ns/op
+# Warmup Iteration   5: 24.443 ns/op
+Iteration   1: 24.350 ns/op
+Iteration   2: 24.430 ns/op
+Iteration   3: 24.368 ns/op
+Iteration   4: 24.466 ns/op
+Iteration   5: 24.357 ns/op
 
 
 Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
-  18.012 ±(99.9%) 2.315 ns/op [Average]
-  (min, avg, max) = (16.675, 18.012, 31.437), stdev = 3.091
-  CI (99.9%): [15.697, 20.327] (assumes normal distribution)
+  24.239 ±(99.9%) 0.087 ns/op [Average]
+  (min, avg, max) = (24.099, 24.239, 24.466), stdev = 0.116
+  CI (99.9%): [24.152, 24.326] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:25:06
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 3)
+
+# Run progress: 71.43% complete, ETA 00:50:08
+# Fork: 1 of 5
+# Warmup Iteration   1: 69.950 ns/op
+# Warmup Iteration   2: 72.681 ns/op
+# Warmup Iteration   3: 51.778 ns/op
+# Warmup Iteration   4: 51.879 ns/op
+# Warmup Iteration   5: 51.777 ns/op
+Iteration   1: 51.762 ns/op
+Iteration   2: 51.937 ns/op
+Iteration   3: 51.918 ns/op
+Iteration   4: 51.853 ns/op
+Iteration   5: 51.768 ns/op
+
+# Run progress: 72.38% complete, ETA 00:48:27
+# Fork: 2 of 5
+# Warmup Iteration   1: 67.466 ns/op
+# Warmup Iteration   2: 73.022 ns/op
+# Warmup Iteration   3: 51.844 ns/op
+# Warmup Iteration   4: 51.861 ns/op
+# Warmup Iteration   5: 51.772 ns/op
+Iteration   1: 51.911 ns/op
+Iteration   2: 51.806 ns/op
+Iteration   3: 51.947 ns/op
+Iteration   4: 51.967 ns/op
+Iteration   5: 52.237 ns/op
+
+# Run progress: 73.33% complete, ETA 00:46:47
+# Fork: 3 of 5
+# Warmup Iteration   1: 69.015 ns/op
+# Warmup Iteration   2: 72.972 ns/op
+# Warmup Iteration   3: 51.694 ns/op
+# Warmup Iteration   4: 52.158 ns/op
+# Warmup Iteration   5: 51.699 ns/op
+Iteration   1: 51.998 ns/op
+Iteration   2: 51.722 ns/op
+Iteration   3: 51.781 ns/op
+Iteration   4: 52.297 ns/op
+Iteration   5: 51.721 ns/op
+
+# Run progress: 74.29% complete, ETA 00:45:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 70.265 ns/op
+# Warmup Iteration   2: 72.434 ns/op
+# Warmup Iteration   3: 52.128 ns/op
+# Warmup Iteration   4: 51.870 ns/op
+# Warmup Iteration   5: 51.767 ns/op
+Iteration   1: 51.955 ns/op
+Iteration   2: 52.198 ns/op
+Iteration   3: 51.946 ns/op
+Iteration   4: 51.858 ns/op
+Iteration   5: 51.849 ns/op
+
+# Run progress: 75.24% complete, ETA 00:43:27
+# Fork: 5 of 5
+# Warmup Iteration   1: 70.632 ns/op
+# Warmup Iteration   2: 74.650 ns/op
+# Warmup Iteration   3: 51.812 ns/op
+# Warmup Iteration   4: 51.693 ns/op
+# Warmup Iteration   5: 51.844 ns/op
+Iteration   1: 51.742 ns/op
+Iteration   2: 52.419 ns/op
+Iteration   3: 51.849 ns/op
+Iteration   4: 51.737 ns/op
+Iteration   5: 51.869 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
+  51.922 ±(99.9%) 0.139 ns/op [Average]
+  (min, avg, max) = (51.721, 51.922, 52.419), stdev = 0.185
+  CI (99.9%): [51.783, 52.061] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 4)
+
+# Run progress: 76.19% complete, ETA 00:41:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 75.403 ns/op
+# Warmup Iteration   2: 79.475 ns/op
+# Warmup Iteration   3: 58.250 ns/op
+# Warmup Iteration   4: 58.150 ns/op
+# Warmup Iteration   5: 57.802 ns/op
+Iteration   1: 58.375 ns/op
+Iteration   2: 44.058 ns/op
+Iteration   3: 57.420 ns/op
+Iteration   4: 43.696 ns/op
+Iteration   5: 44.521 ns/op
+
+# Run progress: 77.14% complete, ETA 00:40:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 40.013 ns/op
+# Warmup Iteration   2: 79.879 ns/op
+# Warmup Iteration   3: 60.822 ns/op
+# Warmup Iteration   4: 56.946 ns/op
+# Warmup Iteration   5: 56.844 ns/op
+Iteration   1: 57.072 ns/op
+Iteration   2: 43.231 ns/op
+Iteration   3: 37.994 ns/op
+Iteration   4: 56.879 ns/op
+Iteration   5: 36.214 ns/op
+
+# Run progress: 78.10% complete, ETA 00:38:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 77.934 ns/op
+# Warmup Iteration   2: 79.072 ns/op
+# Warmup Iteration   3: 58.140 ns/op
+# Warmup Iteration   4: 58.196 ns/op
+# Warmup Iteration   5: 36.440 ns/op
+Iteration   1: 57.788 ns/op
+Iteration   2: 43.677 ns/op
+Iteration   3: 36.476 ns/op
+Iteration   4: 58.067 ns/op
+Iteration   5: 36.522 ns/op
+
+# Run progress: 79.05% complete, ETA 00:36:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 77.567 ns/op
+# Warmup Iteration   2: 79.614 ns/op
+# Warmup Iteration   3: 57.671 ns/op
+# Warmup Iteration   4: 58.256 ns/op
+# Warmup Iteration   5: 38.473 ns/op
+Iteration   1: 43.816 ns/op
+Iteration   2: 58.135 ns/op
+Iteration   3: 58.214 ns/op
+Iteration   4: 58.189 ns/op
+Iteration   5: 57.990 ns/op
+
+# Run progress: 80.00% complete, ETA 00:35:05
+# Fork: 5 of 5
+# Warmup Iteration   1: 77.631 ns/op
+# Warmup Iteration   2: 40.813 ns/op
+# Warmup Iteration   3: 36.554 ns/op
+# Warmup Iteration   4: 36.634 ns/op
+# Warmup Iteration   5: 36.755 ns/op
+Iteration   1: 58.347 ns/op
+Iteration   2: 57.585 ns/op
+Iteration   3: 58.359 ns/op
+Iteration   4: 56.794 ns/op
+Iteration   5: 57.949 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
+  51.095 ±(99.9%) 6.518 ns/op [Average]
+  (min, avg, max) = (36.214, 51.095, 58.375), stdev = 8.701
+  CI (99.9%): [44.577, 57.613] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 10)
+
+# Run progress: 80.95% complete, ETA 00:33:25
+# Fork: 1 of 5
+# Warmup Iteration   1: 79.900 ns/op
+# Warmup Iteration   2: 80.559 ns/op
+# Warmup Iteration   3: 90.181 ns/op
+# Warmup Iteration   4: 90.553 ns/op
+# Warmup Iteration   5: 90.294 ns/op
+Iteration   1: 90.592 ns/op
+Iteration   2: 90.245 ns/op
+Iteration   3: 90.350 ns/op
+Iteration   4: 90.369 ns/op
+Iteration   5: 90.249 ns/op
+
+# Run progress: 81.90% complete, ETA 00:31:45
+# Fork: 2 of 5
+# Warmup Iteration   1: 79.801 ns/op
+# Warmup Iteration   2: 80.322 ns/op
+# Warmup Iteration   3: 90.058 ns/op
+# Warmup Iteration   4: 89.843 ns/op
+# Warmup Iteration   5: 89.529 ns/op
+Iteration   1: 89.758 ns/op
+Iteration   2: 89.883 ns/op
+Iteration   3: 89.994 ns/op
+Iteration   4: 90.558 ns/op
+Iteration   5: 89.653 ns/op
+
+# Run progress: 82.86% complete, ETA 00:30:04
+# Fork: 3 of 5
+# Warmup Iteration   1: 79.915 ns/op
+# Warmup Iteration   2: 81.480 ns/op
+# Warmup Iteration   3: 90.527 ns/op
+# Warmup Iteration   4: 90.125 ns/op
+# Warmup Iteration   5: 90.333 ns/op
+Iteration   1: 90.218 ns/op
+Iteration   2: 89.859 ns/op
+Iteration   3: 90.584 ns/op
+Iteration   4: 90.390 ns/op
+Iteration   5: 90.217 ns/op
+
+# Run progress: 83.81% complete, ETA 00:28:24
+# Fork: 4 of 5
+# Warmup Iteration   1: 81.560 ns/op
+# Warmup Iteration   2: 82.766 ns/op
+# Warmup Iteration   3: 89.889 ns/op
+# Warmup Iteration   4: 89.996 ns/op
+# Warmup Iteration   5: 89.643 ns/op
+Iteration   1: 89.922 ns/op
+Iteration   2: 90.600 ns/op
+Iteration   3: 90.355 ns/op
+Iteration   4: 89.974 ns/op
+Iteration   5: 89.875 ns/op
+
+# Run progress: 84.76% complete, ETA 00:26:44
+# Fork: 5 of 5
+# Warmup Iteration   1: 80.411 ns/op
+# Warmup Iteration   2: 81.512 ns/op
+# Warmup Iteration   3: 90.619 ns/op
+# Warmup Iteration   4: 90.739 ns/op
+# Warmup Iteration   5: 91.275 ns/op
+Iteration   1: 91.784 ns/op
+Iteration   2: 93.468 ns/op
+Iteration   3: 96.551 ns/op
+Iteration   4: 94.322 ns/op
+Iteration   5: 94.351 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
+  90.965 ±(99.9%) 1.323 ns/op [Average]
+  (min, avg, max) = (89.653, 90.965, 96.551), stdev = 1.766
+  CI (99.9%): [89.642, 92.288] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 100)
+
+# Run progress: 85.71% complete, ETA 00:25:04
+# Fork: 1 of 5
+# Warmup Iteration   1: 727.410 ns/op
+# Warmup Iteration   2: 721.108 ns/op
+# Warmup Iteration   3: 932.216 ns/op
+# Warmup Iteration   4: 925.392 ns/op
+# Warmup Iteration   5: 934.523 ns/op
+Iteration   1: 949.940 ns/op
+Iteration   2: 931.957 ns/op
+Iteration   3: 927.640 ns/op
+Iteration   4: 927.563 ns/op
+Iteration   5: 928.105 ns/op
+
+# Run progress: 86.67% complete, ETA 00:23:23
+# Fork: 2 of 5
+# Warmup Iteration   1: 675.981 ns/op
+# Warmup Iteration   2: 695.127 ns/op
+# Warmup Iteration   3: 927.514 ns/op
+# Warmup Iteration   4: 924.049 ns/op
+# Warmup Iteration   5: 930.052 ns/op
+Iteration   1: 924.977 ns/op
+Iteration   2: 923.918 ns/op
+Iteration   3: 927.397 ns/op
+Iteration   4: 925.886 ns/op
+Iteration   5: 925.867 ns/op
+
+# Run progress: 87.62% complete, ETA 00:21:43
+# Fork: 3 of 5
+# Warmup Iteration   1: 669.766 ns/op
+# Warmup Iteration   2: 686.795 ns/op
+# Warmup Iteration   3: 922.504 ns/op
+# Warmup Iteration   4: 925.423 ns/op
+# Warmup Iteration   5: 924.220 ns/op
+Iteration   1: 920.366 ns/op
+Iteration   2: 921.093 ns/op
+Iteration   3: 926.495 ns/op
+Iteration   4: 919.978 ns/op
+Iteration   5: 923.109 ns/op
+
+# Run progress: 88.57% complete, ETA 00:20:03
+# Fork: 4 of 5
+# Warmup Iteration   1: 668.554 ns/op
+# Warmup Iteration   2: 686.891 ns/op
+# Warmup Iteration   3: 926.394 ns/op
+# Warmup Iteration   4: 924.849 ns/op
+# Warmup Iteration   5: 925.142 ns/op
+Iteration   1: 924.631 ns/op
+Iteration   2: 924.568 ns/op
+Iteration   3: 925.401 ns/op
+Iteration   4: 925.018 ns/op
+Iteration   5: 926.010 ns/op
+
+# Run progress: 89.52% complete, ETA 00:18:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 666.348 ns/op
+# Warmup Iteration   2: 698.619 ns/op
+# Warmup Iteration   3: 930.115 ns/op
+# Warmup Iteration   4: 923.932 ns/op
+# Warmup Iteration   5: 926.590 ns/op
+Iteration   1: 924.222 ns/op
+Iteration   2: 923.851 ns/op
+Iteration   3: 926.525 ns/op
+Iteration   4: 924.504 ns/op
+Iteration   5: 926.672 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
+  926.228 ±(99.9%) 4.162 ns/op [Average]
+  (min, avg, max) = (919.978, 926.228, 949.940), stdev = 5.556
+  CI (99.9%): [922.066, 930.390] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 1000)
+
+# Run progress: 90.48% complete, ETA 00:16:42
+# Fork: 1 of 5
+# Warmup Iteration   1: 6919.493 ns/op
+# Warmup Iteration   2: 7065.228 ns/op
+# Warmup Iteration   3: 9784.686 ns/op
+# Warmup Iteration   4: 9793.213 ns/op
+# Warmup Iteration   5: 9860.190 ns/op
+Iteration   1: 9784.709 ns/op
+Iteration   2: 9819.927 ns/op
+Iteration   3: 9789.395 ns/op
+Iteration   4: 9780.178 ns/op
+Iteration   5: 9975.628 ns/op
+
+# Run progress: 91.43% complete, ETA 00:15:02
+# Fork: 2 of 5
+# Warmup Iteration   1: 6909.824 ns/op
+# Warmup Iteration   2: 7033.339 ns/op
+# Warmup Iteration   3: 9845.243 ns/op
+# Warmup Iteration   4: 9866.240 ns/op
+# Warmup Iteration   5: 9850.156 ns/op
+Iteration   1: 9842.240 ns/op
+Iteration   2: 9860.120 ns/op
+Iteration   3: 9830.260 ns/op
+Iteration   4: 9863.591 ns/op
+Iteration   5: 9832.876 ns/op
+
+# Run progress: 92.38% complete, ETA 00:13:22
+# Fork: 3 of 5
+# Warmup Iteration   1: 6943.452 ns/op
+# Warmup Iteration   2: 7074.161 ns/op
+# Warmup Iteration   3: 9957.242 ns/op
+# Warmup Iteration   4: 10005.694 ns/op
+# Warmup Iteration   5: 9967.524 ns/op
+Iteration   1: 9982.169 ns/op
+Iteration   2: 9936.573 ns/op
+Iteration   3: 10036.970 ns/op
+Iteration   4: 9983.455 ns/op
+Iteration   5: 9940.652 ns/op
+
+# Run progress: 93.33% complete, ETA 00:11:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 6933.925 ns/op
+# Warmup Iteration   2: 7044.467 ns/op
+# Warmup Iteration   3: 9813.623 ns/op
+# Warmup Iteration   4: 9856.266 ns/op
+# Warmup Iteration   5: 9829.617 ns/op
+Iteration   1: 9815.651 ns/op
+Iteration   2: 9891.854 ns/op
+Iteration   3: 9829.435 ns/op
+Iteration   4: 9835.300 ns/op
+Iteration   5: 9835.308 ns/op
+
+# Run progress: 94.29% complete, ETA 00:10:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 7047.540 ns/op
+# Warmup Iteration   2: 7152.093 ns/op
+# Warmup Iteration   3: 10275.301 ns/op
+# Warmup Iteration   4: 10298.475 ns/op
+# Warmup Iteration   5: 10262.247 ns/op
+Iteration   1: 10384.123 ns/op
+Iteration   2: 10287.012 ns/op
+Iteration   3: 10265.436 ns/op
+Iteration   4: 10301.497 ns/op
+Iteration   5: 10276.022 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
+  9959.215 ±(99.9%) 141.490 ns/op [Average]
+  (min, avg, max) = (9780.178, 9959.215, 10384.123), stdev = 188.885
+  CI (99.9%): [9817.725, 10100.705] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.StringConcatBenchmark.concatUsingStringBuilder
+# Parameters: (stringCount = 10000)
+
+# Run progress: 95.24% complete, ETA 00:08:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 54755.824 ns/op
+# Warmup Iteration   2: 60245.071 ns/op
+# Warmup Iteration   3: 95059.361 ns/op
+# Warmup Iteration   4: 94831.893 ns/op
+# Warmup Iteration   5: 94799.690 ns/op
+Iteration   1: 94902.128 ns/op
+Iteration   2: 94579.766 ns/op
+Iteration   3: 94756.993 ns/op
+Iteration   4: 94995.898 ns/op
+Iteration   5: 94725.948 ns/op
+
+# Run progress: 96.19% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 54761.939 ns/op
+# Warmup Iteration   2: 60965.542 ns/op
+# Warmup Iteration   3: 94499.793 ns/op
+# Warmup Iteration   4: 95768.340 ns/op
+# Warmup Iteration   5: 94628.233 ns/op
+Iteration   1: 94674.177 ns/op
+Iteration   2: 94646.661 ns/op
+Iteration   3: 94575.606 ns/op
+Iteration   4: 94636.593 ns/op
+Iteration   5: 94581.595 ns/op
+
+# Run progress: 97.14% complete, ETA 00:05:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 54588.867 ns/op
+# Warmup Iteration   2: 59989.514 ns/op
+# Warmup Iteration   3: 94541.859 ns/op
+# Warmup Iteration   4: 94558.133 ns/op
+# Warmup Iteration   5: 94258.957 ns/op
+Iteration   1: 94607.895 ns/op
+Iteration   2: 94424.191 ns/op
+Iteration   3: 94268.427 ns/op
+Iteration   4: 94611.018 ns/op
+Iteration   5: 94370.375 ns/op
+
+# Run progress: 98.10% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 54808.993 ns/op
+# Warmup Iteration   2: 60542.690 ns/op
+# Warmup Iteration   3: 95177.656 ns/op
+# Warmup Iteration   4: 94695.566 ns/op
+# Warmup Iteration   5: 94619.118 ns/op
+Iteration   1: 94816.369 ns/op
+Iteration   2: 94598.789 ns/op
+Iteration   3: 94681.834 ns/op
+Iteration   4: 94859.373 ns/op
+Iteration   5: 94536.441 ns/op
+
+# Run progress: 99.05% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 54477.983 ns/op
+# Warmup Iteration   2: 60075.155 ns/op
+# Warmup Iteration   3: 95902.407 ns/op
+# Warmup Iteration   4: 96423.703 ns/op
+# Warmup Iteration   5: 96201.030 ns/op
+Iteration   1: 96442.940 ns/op
+Iteration   2: 96090.048 ns/op
+Iteration   3: 96110.628 ns/op
+Iteration   4: 96162.807 ns/op
+Iteration   5: 96111.301 ns/op
+
+
+Result "org.sample.StringConcatBenchmark.concatUsingStringBuilder":
+  94950.712 ±(99.9%) 487.563 ns/op [Average]
+  (min, avg, max) = (94268.427, 94950.712, 96442.940), stdev = 650.883
+  CI (99.9%): [94463.149, 95438.275] (assumes normal distribution)
+
+
+# Run complete. Total time: 02:55:27
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -264,7 +1797,25 @@ works, and factor in a small probability of new VM bugs. Additionally, while com
 different JVMs are already problematic, the performance difference caused by different Blackhole
 modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
 
-Benchmark                                       Mode  Cnt   Score   Error  Units
-StringConcatBenchmark.concatUsingPlus           avgt   25  17.546 ± 1.633  ns/op
-StringConcatBenchmark.concatUsingStringBuffer   avgt   25  22.589 ± 5.981  ns/op
-StringConcatBenchmark.concatUsingStringBuilder  avgt   25  18.012 ± 2.315  ns/op
+Benchmark                                       (stringCount)  Mode  Cnt         Score       Error  Units
+StringConcatBenchmark.concatUsingPlus                       2  avgt   25        14.586 ±     2.420  ns/op
+StringConcatBenchmark.concatUsingPlus                       3  avgt   25        23.024 ±     0.132  ns/op
+StringConcatBenchmark.concatUsingPlus                       4  avgt   25        33.704 ±     0.354  ns/op
+StringConcatBenchmark.concatUsingPlus                      10  avgt   25       109.187 ±     0.565  ns/op
+StringConcatBenchmark.concatUsingPlus                     100  avgt   25      2407.215 ±    28.119  ns/op
+StringConcatBenchmark.concatUsingPlus                    1000  avgt   25    218925.764 ±  2481.001  ns/op
+StringConcatBenchmark.concatUsingPlus                   10000  avgt   25  23943421.252 ± 97512.854  ns/op
+StringConcatBenchmark.concatUsingStringBuffer               2  avgt   25        30.166 ±     0.152  ns/op
+StringConcatBenchmark.concatUsingStringBuffer               3  avgt   25        73.893 ±     2.048  ns/op
+StringConcatBenchmark.concatUsingStringBuffer               4  avgt   25        88.034 ±    29.134  ns/op
+StringConcatBenchmark.concatUsingStringBuffer              10  avgt   25        92.893 ±     0.235  ns/op
+StringConcatBenchmark.concatUsingStringBuffer             100  avgt   25       921.562 ±     1.875  ns/op
+StringConcatBenchmark.concatUsingStringBuffer            1000  avgt   25     10052.681 ±   198.152  ns/op
+StringConcatBenchmark.concatUsingStringBuffer           10000  avgt   25     95239.345 ±   451.143  ns/op
+StringConcatBenchmark.concatUsingStringBuilder              2  avgt   25        24.239 ±     0.087  ns/op
+StringConcatBenchmark.concatUsingStringBuilder              3  avgt   25        51.922 ±     0.139  ns/op
+StringConcatBenchmark.concatUsingStringBuilder              4  avgt   25        51.095 ±     6.518  ns/op
+StringConcatBenchmark.concatUsingStringBuilder             10  avgt   25        90.965 ±     1.323  ns/op
+StringConcatBenchmark.concatUsingStringBuilder            100  avgt   25       926.228 ±     4.162  ns/op
+StringConcatBenchmark.concatUsingStringBuilder           1000  avgt   25      9959.215 ±   141.490  ns/op
+StringConcatBenchmark.concatUsingStringBuilder          10000  avgt   25     94950.712 ±   487.563  ns/op

@@ -31,6 +31,9 @@
 
 package org.sample;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 import org.openjdk.jmh.annotations.*;
 import java.util.concurrent.TimeUnit;
 
@@ -39,33 +42,56 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Thread)
 public class StringConcatBenchmark {
 
-    private String str1;
-    private String str2;
-    private String str3;
+
+    @Param({"2", "3", "4", "10", "100", "1000", "10000"})
+    public int stringCount; // количество строк в наборе
+
+    private List<String> strings;
 
     @Setup(Level.Trial)
-    public void setup() {
-        str1 = "Hello";
-        str2 = "World";
-        str3 = "!";
+    public void setUp() {
+        strings = generateStrings(stringCount, 10); // сгенерировать строки длиной 10 символов
+    }
+
+    // Метод для генерации набора строк
+    private List<String> generateStrings(int count, int length) {
+        List<String> list = new ArrayList<>(count);
+        Random random = new Random();
+        for (int i = 0; i < count; i++) {
+            StringBuilder sb = new StringBuilder(length);
+            for (int j = 0; j < length; j++) {
+                sb.append((char) (random.nextInt(26) + 'a')); // случайная буква
+            }
+            list.add(sb.toString());
+        }
+        return list;
     }
 
     @Benchmark
     public String concatUsingPlus() {
-        return str1 + str2 + str3;
+        String result = "";
+        for (String s : strings) {
+            result += s;
+        }
+        return result;
     }
 
     @Benchmark
     public String concatUsingStringBuilder() {
-        return new StringBuilder().append(str1).append(str2).append(str3).toString();
+        StringBuilder sb = new StringBuilder();
+        for (String s : strings) {
+            sb.append(s);
+        }
+        return sb.toString();
     }
 
     @Benchmark
     public String concatUsingStringBuffer() {
-        return new StringBuffer().append(str1).append(str2).append(str3).toString();
+        StringBuffer sb = new StringBuffer();
+        for (String s : strings) {
+            sb.append(s);
+        }
+        return sb.toString();
     }
 
-    public static void main(String[] args) throws Exception {
-        org.openjdk.jmh.Main.main(args);
-    }
 }
